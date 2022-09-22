@@ -1,5 +1,5 @@
 import React from 'react'
-import SSSlider from './SSSlider'
+import DrinkSlider from './DrinkSlider';
 
 export default class DrinkView extends React.Component {
     constructor(props) {
@@ -13,7 +13,7 @@ export default class DrinkView extends React.Component {
             <div>DrinkView
                 <img></img>
                 <p>Drink</p>
-                <SSSlider/>
+                <DrinkSlider/>
                 <p>Ingredients</p>
             </div>
         )

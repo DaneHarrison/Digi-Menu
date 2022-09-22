@@ -8,32 +8,32 @@ export default class HorizontalExpander extends React.Component {
 			numCards: 1
 		}
 
-		// window.addEventListener('touchmove') {
-
-		// }
+		// window.addEventListener('touchmove', () => {
+		// 	alert("hi")
+		// });
 	}
 
-	addCard() {
-		//resize other cards
-	}
+	// addCard() {
+	// 	//resize other cards
+	// }
 
-	removeCard() {
-		//resize other cards
-	}
+	// removeCard() {
+	// 	//resize other cards
+	// }
 
-	readSwip() {
-		//verticalDist
-		//horizontalDist
+	// readSwip() {
+	// 	//verticalDist
+	// 	//horizontalDist
 
-		//if(Math.abs(horizontalDist) > Math.abs(verticalDist)) {
-			// if(horizontalDist > 0) {	//Positive means swipped right
+	// 	//if(Math.abs(horizontalDist) > Math.abs(verticalDist)) {
+	// 		// if(horizontalDist > 0) {	//Positive means swipped right
 
-			// }
-			// else {
+	// 		// }
+	// 		// else {
 
-			// }
-		// }
-	}
+	// 		// }
+	// 	// }
+	// }
 
 //https://developer.mozilla.org/en-US/docs/Web/API/Element/touchmove_event
 //https://developer.mozilla.org/en-US/docs/Web/Events

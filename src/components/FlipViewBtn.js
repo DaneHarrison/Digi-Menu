@@ -9,13 +9,14 @@ export default class FlipViewBtn extends React.Component {
         else if(de.webkitRequestFullscreen) { de.webkitRequestFullscreen(); }
         else if(de.msRequestFullScreen) { de.msRequestFullScreen(); }
 
-        //fails if full screen is not activated
-        switch (window.screen.orientation.type) {
+        switch (window.screen.orientation.type) {   //fails if full screen is not activated
             case 'landscape-primary':
                 window.screen.orientation.lock('portrait-primary');
+                this.props.handler(true)
                 break;
             case 'portrait-primary':
                 window.screen.orientation.lock('landscape-primary');
+                this.props.handler(false)
                 break;
             default:
                 alert("This device does not support automatic rotation, please rotate manually");

@@ -21,7 +21,6 @@ const marks = [ //use dependency injection here
   },
 ];
 
-//set up a way to propagate current value back up
 export default function DrinkSlider() {
   return (
     <Box sx={{ width: 300 }}>
