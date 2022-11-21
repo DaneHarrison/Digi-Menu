@@ -1,0 +1,22 @@
+{
+    "Drinks": [
+        {
+            "name": "Virgin Mojito",
+            "photo": "",
+            "calories": 5,
+            "ingredients": [
+
+            ],
+            "tags": []
+        },
+        {
+            "name": "Ceasar",
+            "photo": "",
+            "calories": 5,
+            "ingredients": [
+
+            ],
+            "tags": []
+        }
+    ]
+}

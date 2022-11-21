@@ -1,3 +1,4 @@
+import '../style/flipViewBtn.css'
 import React from 'react'
 
 export default class FlipViewBtn extends React.Component {
@@ -26,11 +27,10 @@ export default class FlipViewBtn extends React.Component {
     render() {
         return(
             <div>
-                <button onClick={this.flipView}>
-                    <p>{this.props.selectedCount}</p>
-                    <p>Picture</p>
+                <button onClick={this.flipView} className='FlipViewBtn'>
+                    <img src='./favicon.ico' className='Photo'></img>
+                    <p>{this.props.count}</p>
                 </button>
-                <p>get good</p>
             </div>
         )
     }

@@ -5,6 +5,8 @@ A digital menu with comparing features
 <br>
 <br>
 
+- do a thing maybe for recommending for your friends - type in your name and it brings up a list of pre recommended
+
 ## Available Scripts
 
 In the project directory, you can run:

@@ -1,0 +1,15 @@
+.FlipViewBtn {
+    position: absolute;
+    left: 90%;
+    top: 85%;
+    background-color: aqua;
+    border-radius: 12%;
+}
+
+.Photo > img {
+    object-fit: fill;
+}
+
+.NumSelected {
+    align-content: center;
+}

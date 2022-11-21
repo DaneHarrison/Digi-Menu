@@ -1,0 +1,12 @@
+.SelectionView {
+    display: flex;
+    flex-direction: column;
+}
+
+.CardViewer {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 5%;
+    overflow: hidden;
+    justify-content: center;
+}

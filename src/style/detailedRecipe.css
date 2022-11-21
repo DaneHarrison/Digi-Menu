@@ -1,0 +1,25 @@
+.DetailedRecipe {
+    display: grid;
+    grid-template-rows: 2% 60% 36% 2%;
+    grid-template-columns: 2% 48% 48% 2%;
+    grid-template-areas: ". . . ."
+                         ". photo topDesc ."
+                         ". slider btmDesc ."
+                         ". . . .";
+}
+
+.Photo {
+    grid-area: photo;
+}
+
+.TopDesc {
+    grid-area: topDesc;
+}
+
+.BtmDesc {
+    grid-area: btmDesc;
+}
+
+.Slider {
+    grid-area: slider;
+}

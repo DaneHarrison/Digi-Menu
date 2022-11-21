@@ -1,3 +1,4 @@
+import '../style/detailedRecipe.css'
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import Slider from '@mui/material/Slider';
@@ -23,7 +24,7 @@ const marks = [ //use dependency injection here
 
 export default function DrinkSlider() {
   return (
-    <Box sx={{ width: 300 }}>
+    <Box sx={{ width: 300 }} className='Slider'>
         <Slider defaultValue={50} step={null} marks={marks} />
     </Box>
   );

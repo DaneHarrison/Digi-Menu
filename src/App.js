@@ -1,10 +1,10 @@
 import './style/App.css';
-import * as drinkList from './assets/Drinks.json'
+import * as menu from './assets/menu.json'
 
 import React from 'react'
-import FlipViewBtn from './components/FlipViewBtn';
-import SelectionView from './components/SelectionView';
-import HorizontalExpander from './components/Expander';
+import FlipViewBtn from './components/flipViewBtn';
+import SelectionView from './components/selectionView';
+import HorizontalExpander from './components/expanderView';
 
 
 export default class RotatableApp extends React.Component {
@@ -13,7 +13,7 @@ export default class RotatableApp extends React.Component {
 
 		this.state = {
 			vertical: true, 
-			drinks: drinkList
+			menu: menu
 		}
 
 		window.screen.orientation.addEventListener('change', () => {
