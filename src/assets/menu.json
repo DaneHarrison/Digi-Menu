@@ -1,0 +1,61 @@
+{
+    "Drinks": [
+        {
+            "name": "Virgin Mojito",
+            "photo": "",
+            "calories": 155,
+            "ingredients": [
+                "10 mint leaves",
+                "2 tbsp lime juice",
+                "2 tbsp honey",
+                "simple syrup",
+                "sparkling water",
+                "ice",
+                "lime slices"
+            ],
+            "tags": []
+        },
+        {
+            "name": "Blue Hawaiian",
+            "photo": "",
+            "calories": 336,
+            "ingredients": [
+                "1 cup crushed ice",
+                "2 ounces pineapple juice",
+                "1 ounce light rum",
+                "1 ounce blue curacao",
+                "1 ounce cream of coconut",
+                "1 pineapple slice",
+                "1 cherry"
+            ],
+            "tags": []
+        },
+        {
+            "name": "Rum & Coke",
+            "photo": "",
+            "calories": 185,
+            "ingredients": [
+                "2 ounces spiced rum",
+                "4 to 6 ounces coca-cola",
+                "Lime wedge "
+            ],
+            "tags": []
+        },
+        {
+            "name": "lime margarita",
+            "photo": "",
+            "calories": 250,
+            "ingredients": [
+                "1/2 ounce tequila",
+                "1/4 ounce triple sec",
+                "1/4 ounce lime juice",
+                "1/4 cup lemon juice",
+                "2 tablespoons superfine sugar",
+                "4 lime wedges",
+                "1 tbsp kosher salt",
+                "1-1/3 cup crushed ice"
+            ],
+            "tags": []
+        }
+    ]
+}
