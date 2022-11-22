@@ -10,15 +10,17 @@ export default class FlipViewBtn extends React.Component {
         else if(de.webkitRequestFullscreen) { de.webkitRequestFullscreen(); }
         else if(de.msRequestFullScreen) { de.msRequestFullScreen(); }
 
-        switch (window.screen.orientation.type) {   //fails if full screen is not activated
-            case 'landscape-primary':
+        switch (this.props.isVertical) {
+            case true:
+                window.screen.orientation.lock('landscape-secondary');
+                this.props.handler(false)
+                break;
+
+            case false:
                 window.screen.orientation.lock('portrait-primary');
                 this.props.handler(true)
                 break;
-            case 'portrait-primary':
-                window.screen.orientation.lock('landscape-primary');
-                this.props.handler(false)
-                break;
+                
             default:
                 alert("This device does not support automatic rotation, please rotate manually");
         }
@@ -27,7 +29,7 @@ export default class FlipViewBtn extends React.Component {
     render() {
         return(
             <div>
-                <button onClick={this.flipView} className='FlipViewBtn'>
+                <button onClick={() => {this.flipView()}} className='FlipViewBtn'>
                     <p className='NumSelected'>{this.props.count}</p>
                     <img src='./favicon.ico' className='Photo'></img>
                 </button>

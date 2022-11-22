@@ -24,6 +24,9 @@ export default class RotatableApp extends React.Component {
 				case 'landscape-primary':
 					this.setIsVertical(false);
 					break;
+				case 'landscape-secondary':
+					this.setIsVertical(false);
+					break;
 				default:
 					break;
 			}
@@ -41,7 +44,7 @@ export default class RotatableApp extends React.Component {
 					? <SelectionView drinks={this.state.drinks}/>
 					: <HorizontalExpander items={this.state.drinks}/>
 				}
-				<FlipViewBtn count="5" handler={this.setIsVertical}/>
+				<FlipViewBtn count="5" isVertical={this.state.vertical} handler={this.setIsVertical}/>
 			</div>
 		);
 	}
