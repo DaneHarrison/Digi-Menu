@@ -1,3 +1,10 @@
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "./styles.css";
 import React from 'react'
 
 export default class HorizontalExpander extends React.Component {
@@ -5,42 +12,38 @@ export default class HorizontalExpander extends React.Component {
 		super(props);
 
 		this.state = {
-			numCards: 1
+			showing: [],
+			currCard: 0
 		}
-
-		// window.addEventListener('touchmove', () => {
-		// 	alert("hi")
-		// });
 	}
 
-	// addCard() {
-	// 	//resize other cards
-	// }
+	hi(activeIndex) {
+		let hi = activeIndex.activeIndex;
+		// alert(this.state.currCard + ' ' + hi)
+		this.setState({currCard: hi})
 
-	// removeCard() {
-	// 	//resize other cards
-	// }
-
-	// readSwip() {
-	// 	//verticalDist
-	// 	//horizontalDist
-
-	// 	//if(Math.abs(horizontalDist) > Math.abs(verticalDist)) {
-	// 		// if(horizontalDist > 0) {	//Positive means swipped right
-
-	// 		// }
-	// 		// else {
-
-	// 		// }
-	// 	// }
-	// }
-
-//https://developer.mozilla.org/en-US/docs/Web/API/Element/touchmove_event
-//https://developer.mozilla.org/en-US/docs/Web/Events
+	}
 
 	render() {
   		return (
-			<div>HorizontalExpander</div>
+			<div>
+			<Swiper
+        slidesPerView={this.state.currCard}
+        spaceBetween={0}
+        className="swiper"
+		onActiveIndexChange={(activeIndex)=> {this.hi(activeIndex)}}
+      >
+        <SwiperSlide>Slide 1</SwiperSlide>
+        <SwiperSlide>Slide 2</SwiperSlide>
+        <SwiperSlide>Slide 3</SwiperSlide>
+        <SwiperSlide>Slide 4</SwiperSlide>
+        <SwiperSlide>Slide 5</SwiperSlide>
+        <SwiperSlide>Slide 6</SwiperSlide>
+        <SwiperSlide>Slide 7</SwiperSlide>
+        <SwiperSlide>Slide 8</SwiperSlide>
+        <SwiperSlide>Slide 9</SwiperSlide>
+      </Swiper>
+	  </div>
 		)
 	}
 }
