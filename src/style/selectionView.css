@@ -4,7 +4,7 @@
     height: 100vh;
     width: 100vw;
     min-height: 0;
-    background-image: linear-gradient(black, #e1c4ff);
+    background-image: linear-gradient(#e1c4ff, black);
 }
 
 .CardViewer {

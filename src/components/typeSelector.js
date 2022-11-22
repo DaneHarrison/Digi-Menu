@@ -1,4 +1,5 @@
 import '../style/typeSelector.css'
+import Bottle from './bottle';
 import React from 'react'
 
 export default class TypeSelector extends React.Component {
@@ -10,7 +11,17 @@ export default class TypeSelector extends React.Component {
     render() {
         return (
             <div className='TypeSelector'>
-                <button>Virgin</button>
+                <Bottle />
+                <Bottle />
+                <Bottle />
+                <Bottle />
+                <Bottle />
+                <Bottle />
+                <Bottle />
+                <Bottle />
+                <Bottle />
+                <Bottle />
+                <Bottle />
                 <button>Whiskey</button>
                 <button>Wine</button>
                 <button>Rum</button>
@@ -18,6 +29,9 @@ export default class TypeSelector extends React.Component {
                 <button>Tequila</button>
                 <button>Gin</button>
                 <button>Brandy</button>
+                <button>Yagermeister</button>
+                <button>Kahlua</button>
+                <button>Baileys</button>
                 <button>infused</button>
 
                 <div className='Holder'>
@@ -28,3 +42,15 @@ export default class TypeSelector extends React.Component {
         )
     }
 }
+
+{/* <button>Whiskey</button>
+<button>Wine</button>
+<button>Rum</button>
+<button>Vodka</button>
+<button>Tequila</button>
+<button>Gin</button>
+<button>Brandy</button>
+<button>Yagermeister</button>
+<button>Kahlua</button>
+<button>Baileys</button>
+<button>infused</button> */}

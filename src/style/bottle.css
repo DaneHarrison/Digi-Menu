@@ -1,0 +1,12 @@
+.BottlePic {
+    width: 40px;
+    object-fit: fill;
+    transform: translateY(7px);
+}
+
+.BottleBtn {
+    padding-left: 0%;
+    padding-right: 0%;
+    border: 0ch;
+    background: none;
+}

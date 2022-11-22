@@ -5,6 +5,7 @@
     height: 43%;
     column-gap: 3px;
     overflow-x: scroll;
+    overflow-y: hidden;
 } 
 
 .Holder {
