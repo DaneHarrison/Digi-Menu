@@ -1,7 +1,7 @@
-import { Swiper, SwiperSlide } from "swiper/react";
+import "../style/expanderView.css";
 import "swiper/css";
-import "swiper/css/pagination";
-import "./styles.css";
+import VertiCardScroller from "./vertiCardScroller";
+import {Swiper, SwiperSlide} from "swiper/react";
 import React from 'react'
 
 export default class HorizontalExpander extends React.Component {
@@ -37,35 +37,11 @@ export default class HorizontalExpander extends React.Component {
   		return (
 			<div>
 			<Swiper slidesPerView={this.state.numCards} className="swiper" onSlideChange={(swiper)=> {this.updateTabs(swiper)}} onSwiper={(swiper)=> {this.setup(swiper)}}>
-				<SwiperSlide>Slide 0</SwiperSlide>
-				<SwiperSlide>
-					<Swiper direction={"vertical"} className="mySwiper">
-						<SwiperSlide>Slide 1</SwiperSlide>
-						<SwiperSlide>Slide 2</SwiperSlide>
-						<SwiperSlide>Slide 3</SwiperSlide>
-						<SwiperSlide>Slide 4</SwiperSlide>
-						<SwiperSlide>Slide 5</SwiperSlide>
-						<SwiperSlide>Slide 6</SwiperSlide>
-						<SwiperSlide>Slide 7</SwiperSlide>
-						<SwiperSlide>Slide 8</SwiperSlide>
-						<SwiperSlide>Slide 9</SwiperSlide>
-					</Swiper>
-				</SwiperSlide>
-				<SwiperSlide>					
-					<Swiper direction={"vertical"} className="mySwiper">
-						<SwiperSlide>Slide 1</SwiperSlide>
-						<SwiperSlide>Slide 2</SwiperSlide>
-						<SwiperSlide>Slide 3</SwiperSlide>
-						<SwiperSlide>Slide 4</SwiperSlide>
-						<SwiperSlide>Slide 5</SwiperSlide>
-						<SwiperSlide>Slide 6</SwiperSlide>
-						<SwiperSlide>Slide 7</SwiperSlide>
-						<SwiperSlide>Slide 8</SwiperSlide>
-						<SwiperSlide>Slide 9</SwiperSlide>
-					</Swiper>
-				</SwiperSlide>
-				<SwiperSlide>Slide 3</SwiperSlide>
-				<SwiperSlide>Slide 4</SwiperSlide>
+				<SwiperSlide></SwiperSlide>
+				<SwiperSlide> <VertiCardScroller /> </SwiperSlide>
+				<SwiperSlide> <VertiCardScroller /> </SwiperSlide>
+				<SwiperSlide> <VertiCardScroller /> </SwiperSlide>
+				<SwiperSlide> <VertiCardScroller /> </SwiperSlide>
 			</Swiper>
 	  	</div>
 		)
