@@ -1,12 +1,25 @@
 .SelectionView {
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    min-height: 0;
 }
 
 .CardViewer {
     display: flex;
     flex-flow: row wrap;
     gap: 5%;
-    overflow: hidden;
+    overflow: auto;
     justify-content: center;
+    min-height: 0;
+}
+
+.RecipeModal {
+    position: absolute;
+    background-color: blanchedalmond;
+    border: '2px solid #000';
+    box-shadow: 24;
+    scale: 85%;
+    top: -5%;
 }
