@@ -4,7 +4,6 @@ import React from 'react'
 
 export default class TypeSelector extends React.Component {
     search() {
-        alert('lol')
         document.getElementById('searchBox').value = '';
     }
 
