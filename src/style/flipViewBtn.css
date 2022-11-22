@@ -1,9 +1,10 @@
 .FlipViewBtn {
     position: absolute;
-    left: 80%;
+    left: 81%;
     top: 90%;
-    background-color: aqua;
+    background-color: black;
     border-radius: 100%;
+    border-color: black;
     height: 60px;
     width: 60px;
 }
