@@ -1,6 +1,23 @@
 .Card {
-    height: 100px;
-    width: 100px;
+    height: 110px;
+    width: 110px;
     border: none;
     background: none;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.Photo {
+    object-fit: fill;
+    width: 99%;
+    height: 99%;
+}
+
+.RecipeName {
+    font-size: 20px;
+    padding-top: 0%;
+    margin-top: 0%;
+    transform: translateY(-20%);
+    white-space: nowrap;
+    overflow: hidden;
 }

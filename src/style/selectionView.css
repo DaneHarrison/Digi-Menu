@@ -9,7 +9,8 @@
 .CardViewer {
     display: flex;
     flex-flow: row wrap;
-    gap: 5%;
+    column-gap: 1%;
+    row-gap: 5%;
     overflow: auto;
     justify-content: center;
     min-height: 0;
