@@ -11,7 +11,7 @@
     display: flex;
     flex-flow: row wrap;
     column-gap: 1%;
-    row-gap: 5%;
+    row-gap: 6%;
     overflow-y: auto;
     justify-content: center;
     min-height: 0;
@@ -19,7 +19,7 @@
 
 .RecipeModal {
     position: absolute;
-    background-color: blanchedalmond;
+    background-color: lightyellow;
     border: '2px solid #000';
     box-shadow: 24;
     scale: 85%;

@@ -15,9 +15,10 @@
 
 .RecipeName {
     font-size: 20px;
-    padding-top: 0%;
+    padding-top: 2%;
     margin-top: 0%;
     transform: translateY(-20%);
     white-space: nowrap;
     overflow: hidden;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.3);
 }

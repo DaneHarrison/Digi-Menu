@@ -1,7 +1,7 @@
 .FlipViewBtn {
-    position: absolute;
-    left: 81%;
-    top: 90%;
+    position: fixed;
+    left: calc(100vw - 70px);
+    bottom: 10px;
     background-color: black;
     border-radius: 100%;
     border-color: black;
@@ -14,5 +14,10 @@
 }
 
 .NumSelected {
-    align-content: center;
+    -webkit-text-fill-color: rgba(255, 255, 255);
+    width: 43px;
+    top: 23px;
+    position: absolute;
+    text-align: center;
+    z-index: 6;
 }

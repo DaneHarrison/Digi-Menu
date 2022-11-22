@@ -9,14 +9,14 @@
 } 
 
 .Holder {
-    position: absolute;
+    position:absolute;
     width: 100%;
-    top: 20%;
-    height: 8%;
+    height: 45px;
     background-color: black;
     z-index: 6;
     display: flex;
     justify-content: flex-end;
+    top: 20%;
 }
 
 .Hidden {
