@@ -1,8 +1,8 @@
 .TypeSelector {
     display: flex;
     flex-direction: row;
-    padding-bottom: 2.5%;
-    height: 43%;
+    padding-bottom: 120px;
+    height: 20%;
     column-gap: 3px;
     overflow-x: scroll;
     overflow-y: hidden;
@@ -16,7 +16,7 @@
     z-index: 6;
     display: flex;
     justify-content: center;
-    top: 20%;
+    top: 127.5px;
 }
 
 .Disperse {
