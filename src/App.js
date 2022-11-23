@@ -1,11 +1,9 @@
 import './style/App.css';
-import * as menu from './assets/menu.json'
-
-import React from 'react'
-import FlipViewBtn from './components/flipViewBtn';
-import SelectionView from './components/selectionView';
+import menu from './assets/menu.json'
 import HorizontalExpander from './components/expanderView';
-
+import SelectionView from './components/selectionView';
+import FlipViewBtn from './components/flipViewBtn';
+import React from 'react'
 
 export default class RotatableApp extends React.Component {
 	constructor(props) {
@@ -16,6 +14,18 @@ export default class RotatableApp extends React.Component {
 			menu: menu
 		}
 
+		//this is a fix for apple devices
+		// if(window.screen.orientation) {
+		// 	alert('yes')
+		// }
+		// else {
+		// 	alert('nope')
+		// }
+		// window.addEventListener('orientationchange', () => {
+		// 	//alert(window.orientation)
+		// });
+
+		//this works on android
 		window.screen.orientation.addEventListener('change', () => {
 			switch (window.screen.orientation.type) {
 				case 'portrait-primary':
@@ -49,9 +59,3 @@ export default class RotatableApp extends React.Component {
 		);
 	}
 }
-
-
-//iterate over items to insert into the DOM
-//      {objects.map(function(object, i){
-//   return <ObjectRow obj={object} key={i} />;
-// })}

@@ -13,8 +13,16 @@ export default class SelectionView extends React.Component {
 
         this.state = {
             selected: 0,
-            showRecipe: false,
+            showRecipe: false
         }
+    }
+
+    findFromIngredients() {
+
+    }
+
+    findFromTags() {
+
     }
 
     showRecipe() {
@@ -35,7 +43,7 @@ export default class SelectionView extends React.Component {
                 </Modal>
 
                 <div className='SelectionView'>
-                    <TypeSelector/>
+                    <TypeSelector />
                     <div className='CardViewer'>
                         <RecipeCard photo='./favicon.ico' name='lolsgjnikgndkfjsnkds' showRecipe={() => {this.showRecipe()}} />
                         <RecipeCard photo='./favicon.ico' name='lol' showRecipe={() => {this.showRecipe()}} />

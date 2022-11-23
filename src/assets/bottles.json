@@ -1,69 +1,62 @@
-{
-    "Bottles": [
-        {
-            "id": 0,
-            "name": "Tonic Water",
-            "photo": ""
-        },
-        {
-            "id": 1,
-            "name": "Vodka",
-            "photo": ""
-        },
-        {
-            "id": 2,
-            "name": "Rum",
-            "photo": ""
-        },
-        {
-            "id": 3,
-            "name": "Tequila",
-            "photo": ""
-        },
-        {
-            "id": 4,
-            "name": "Red Wine",
-            "photo": ""
-        },
-        {
-            "id": 5,
-            "name": "White Wine",
-            "photo": ""
-        },
-        {
-            "id": 6,
-            "name": "Jagermeister",
-            "photo": ""
-        },
-        {
-            "id": 7,
-            "name": "Kahlua",
-            "photo": ""
-        },
-        {
-            "id": 8,
-            "name": "Baileys",
-            "photo": ""
-        },
-        {
-            "id": 9,
-            "name": "Whiskey",
-            "photo": ""
-        },
-        {
-            "id": 10,
-            "name": "Gin",
-            "photo": ""
-        },
-        {
-            "id": 11,
-            "name": "Brandy",
-            "photo": ""
-        },
-        {          
-            "id": 12,  
-            "name": "Infused",
-            "photo": ""
-        }
-    ]
-}
+[
+    {
+        "id": 0,
+        "name": "Tonic Water",
+        "photo": "./bottles/tonicwater.png"
+    },
+    {
+        "id": 1,
+        "name": "Rum",
+        "photo": "./bottles/rum.png"
+    },
+    {
+        "id": 2,
+        "name": "Jagermeister",
+        "photo": "./bottles/jagermeister.png"
+    },
+    {
+        "id": 3,
+        "name": "Vodka",
+        "photo": "./bottles/vodka.png"
+    },
+    {
+        "id": 4,
+        "name": "Tequila",
+        "photo": "./bottles/tequila.png"
+    },
+    {
+        "id": 5,
+        "name": "Red Wine",
+        "photo": "./bottles/redwine.png"
+    },
+    {
+        "id": 6,
+        "name": "White Wine",
+        "photo": "./bottles/whitewine.png"
+    },
+    {
+        "id": 7,
+        "name": "Baileys",
+        "photo": "./bottles/baileys.png"
+    },
+    {
+        "id": 8,
+        "name": "Kahlua",
+        "photo": "./bottles/kahlua.png"
+    },
+    {
+        "id": 9,
+        "name": "Brandy",
+        "photo": "./bottles/brandy.png"
+    },
+    {
+        "id": 10,
+        "name": "Whiskey",
+        "photo": "./bottles/whiskey.png"
+    },
+    {
+        "id": 11,
+        "name": "Gin",
+        "photo": "./bottles/gin.png"
+    }
+]

@@ -5,7 +5,7 @@ export default class Bottle extends React.Component {
     render() {
         return(
             <button className="BottleBtn">
-                <img src='./bottles/smallBottle.png' className='BottlePic' />
+                <img src={this.props.bottle.photo} className='BottlePic' />
             </button>
         )
     }

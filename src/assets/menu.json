@@ -1,225 +1,222 @@
-{
-    "Drinks": [
-        {
-            "name": "Virgin Mojito",
-            "photo": "",
-            "calories": 155,
-            "ingredients": [
-                "10 mint leaves",
-                "2 tbsp lime juice",
-                "2 tbsp honey",
-                "simple syrup",
-                "sparkling water",
-                "ice",
-                "lime slices"
-            ],
-            "tags": []
-        },
-        {
-            "name": "Blue Hawaiian",
-            "photo": "",
-            "calories": 336,
-            "ingredients": [
-                "1 oz light rum",
-                "1/2 oz blue curacao",
-                "1 1/2 oz pineapple"
-            ],
-            "tags": []
-        },
-        {
-            "name": "Rum & Coke",
-            "photo": "",
-            "calories": 185,
-            "ingredients": [
-                "2 ounces spiced rum",
-                "4 to 6 ounces coca-cola",
-                "Lime wedge"
-            ],
-            "tags": []
-        },
-        {
-            "name": "Lime Margarita",
-            "photo": "",
-            "calories": 250,
-            "ingredients": [
-                "1/2 ounce tequila",
-                "1/4 ounce triple sec",
-                "1/4 ounce lime juice",
-                "1/4 cup lemon juice",
-                "2 tablespoons superfine sugar",
-                "4 lime wedges",
-                "1 tbsp kosher salt",
-                "1-1/3 cup crushed ice"
-            ],
-            "tags": []
-        },
-        {
-            "name": "Paralyzer",
-            "photo": "",
-            "calories": 293,
-            "ingredients": [
-                "1 cup ice cubes",
-                "4 oz pepsi",
-                "1 oz kahlua cofee flav",
-                "1.5 oz absolute vodka",
-                "2 oz milk",
-                "cherry"
-            ],
-            "tags": []
-        },
-        {
-            "name": "Red Headed Sl*t",
-            "photo": "",
-            "calories": 162,
-            "ingredients": [
-                "1 3/4 oz jagermeister",
-                "1 3/4 oz peach schnapps",
-                "cranberry juice",
-                "ice"
-            ],
-            "tags": []
-        },        
-        {
-            "name": "Cosmopolitan",
-            "photo": "",
-            "calories": 331,
-            "ingredients": [
-                "1.5 oz citris vodka",
-                "1 oz cointreau ",
-                "0.5 oz lime juice ",
-                "0.25 oz cranberry juice "
-            ],
-            "tags": []
-        },        
-        {
-            "name": "Negroni",
-            "photo": "",
-            "calories": 195,
-            "ingredients": [
-                "1 oz gin",
-                "1 oz campari",
-                "1 oz sweet vermouth"
-            ],
-            "tags": []
-        },        
-        {
-            "name": "Mimosa",
-            "photo": "",
-            "calories": 150,
-            "ingredients": [
-                "2.5 oz champagne",
-                "2.5 oz orange juice"
-            ],
-            "tags": []
-        },        
-        {
-            "name": "Paloma",
-            "photo": "",
-            "calories": 158,
-            "ingredients": [
-                "2 oz tequila",
-                "0.5 oz lime juice",
-                "grapefruit soda to top"
-            ],
-            "tags": []
-        },        
-        {
-            "name": "Dark & Stormy",
-            "photo": "",
-            "calories": 185,
-            "ingredients": [
-                "1.5 oz goslings black seal rum",
-                "ginger beer to top"
-            ],
-            "tags": []
-        },        
-        {
-            "name": "Pina Colada",
-            "photo": "",
-            "calories": 174,
-            "ingredients": [
-                "2 oz light rum",
-                " 11/2 oz cream of coconut",
-                "1 1/2 oz pineapple juice",
-                "1/2 oz lime juice"
-            ],
-            "tags": []
-        },        
-        {
-            "name": "Virgin Moscow Mule",
-            "photo": "",
-            "calories": 42,
-            "ingredients": [
-                "8 oz ginger beer",
-                "4 tablespoons lime (2 medium limes)",
-                "club soda"
-            ],
-            "tags": []
-        },
-        {
-            "name": "Espresso Martini",
-            "photo": "",
-            "calories": 239,
-            "ingredients": [
-                "2 oz vodka",
-                "1/2 oz coffee kahlua",
-                "1 oz espresso cold brewed"
-                
-            ],
-            "tags": []
-        },
-        {
-            "name": "Raspberry Mojito",
-            "photo": "",
-            "calories": 130,
-            "ingredients": [
-                "1/2 lime cut into wedges ",
-                "6 raspberries",
-                "1 teaspoon sugar",
-                "10 fresh mints",
-                "1/4 cup white rum ",
-                "club soda"
-            ],
-            "tags": []
-        },        
-        {
-            "name": "White Sangria",
-            "photo": "",
-            "calories": 170,
-            "ingredients": [
-                "3 medium oranges cut into wedges or 1 cup orange juice",
-                "1 lemon 2 3/8 inch diameter cut into wedges",
-                "1 lime cut into wedges",
-                "1 (750 ml) bottle white wine chilled ",
-                "2 oz brandy",
-                "2/3 cup white sugar ",
-                "2 cups club soda or ginger ale "
-            ],
-            "tags": []
-        },        
-        {
-            "name": "Grasshopper",
-            "photo": "",
-            "calories": 182,
-            "ingredients": [
-                "3/4 oz creme de menthe ",
-                "3/4 oz white creme de cacao",
-                "1/4 oz heavy cream ",
-                "1 cup ice "
-            ],
-            "tags": []
-        },        
-        {
-            "name": "Crunch Shots",
-            "photo": "",
-            "calories": 302,
-            "ingredients": [
-                "2 oz rum chata",
-                "1 oz fireball ",
-                "cinnamon/sugar rim glasses 2-1 ratio for cin and sugar ",
-                "whip cream topping"
-            ],
-            "tags": []
-        }
-    ]
-}
+[
+    {
+        "name": "Virgin Mojito",
+        "photo": "",
+        "calories": 155,
+        "ingredients": [
+            "10 mint leaves",
+            "2 tbsp lime juice",
+            "2 tbsp honey",
+            "simple syrup",
+            "sparkling water",
+            "ice",
+            "lime slices"
+        ],
+        "tags": []
+    },
+    {
+        "name": "Blue Hawaiian",
+        "photo": "",
+        "calories": 336,
+        "ingredients": [
+            "1 oz light rum",
+            "1/2 oz blue curacao",
+            "1 1/2 oz pineapple"
+        ],
+        "tags": []
+    },
+    {
+        "name": "Rum & Coke",
+        "photo": "",
+        "calories": 185,
+        "ingredients": [
+            "2 ounces spiced rum",
+            "4 to 6 ounces coca-cola",
+            "Lime wedge"
+        ],
+        "tags": []
+    },
+    {
+        "name": "Lime Margarita",
+        "photo": "",
+        "calories": 250,
+        "ingredients": [
+            "1/2 ounce tequila",
+            "1/4 ounce triple sec",
+            "1/4 ounce lime juice",
+            "1/4 cup lemon juice",
+            "2 tablespoons superfine sugar",
+            "4 lime wedges",
+            "1 tbsp kosher salt",
+            "1-1/3 cup crushed ice"
+        ],
+        "tags": []
+    },
+    {
+        "name": "Paralyzer",
+        "photo": "",
+        "calories": 293,
+        "ingredients": [
+            "1 cup ice cubes",
+            "4 oz pepsi",
+            "1 oz kahlua cofee flav",
+            "1.5 oz absolute vodka",
+            "2 oz milk",
+            "cherry"
+        ],
+        "tags": []
+    },
+    {
+        "name": "Red Headed Sl*t",
+        "photo": "",
+        "calories": 162,
+        "ingredients": [
+            "1 3/4 oz jagermeister",
+            "1 3/4 oz peach schnapps",
+            "cranberry juice",
+            "ice"
+        ],
+        "tags": []
+    },
+    {
+        "name": "Cosmopolitan",
+        "photo": "",
+        "calories": 331,
+        "ingredients": [
+            "1.5 oz citris vodka",
+            "1 oz cointreau ",
+            "0.5 oz lime juice ",
+            "0.25 oz cranberry juice "
+        ],
+        "tags": []
+    },
+    {
+        "name": "Negroni",
+        "photo": "",
+        "calories": 195,
+        "ingredients": [
+            "1 oz gin",
+            "1 oz campari",
+            "1 oz sweet vermouth"
+        ],
+        "tags": []
+    },
+    {
+        "name": "Mimosa",
+        "photo": "",
+        "calories": 150,
+        "ingredients": [
+            "2.5 oz champagne",
+            "2.5 oz orange juice"
+        ],
+        "tags": []
+    },
+    {
+        "name": "Paloma",
+        "photo": "",
+        "calories": 158,
+        "ingredients": [
+            "2 oz tequila",
+            "0.5 oz lime juice",
+            "grapefruit soda to top"
+        ],
+        "tags": []
+    },
+    {
+        "name": "Dark & Stormy",
+        "photo": "",
+        "calories": 185,
+        "ingredients": [
+            "1.5 oz goslings black seal rum",
+            "ginger beer to top"
+        ],
+        "tags": []
+    },
+    {
+        "name": "Pina Colada",
+        "photo": "",
+        "calories": 174,
+        "ingredients": [
+            "2 oz light rum",
+            " 11/2 oz cream of coconut",
+            "1 1/2 oz pineapple juice",
+            "1/2 oz lime juice"
+        ],
+        "tags": []
+    },
+    {
+        "name": "Virgin Moscow Mule",
+        "photo": "",
+        "calories": 42,
+        "ingredients": [
+            "8 oz ginger beer",
+            "4 tablespoons lime (2 medium limes)",
+            "club soda"
+        ],
+        "tags": []
+    },
+    {
+        "name": "Espresso Martini",
+        "photo": "",
+        "calories": 239,
+        "ingredients": [
+            "2 oz vodka",
+            "1/2 oz coffee kahlua",
+            "1 oz espresso cold brewed"
+        ],
+        "tags": []
+    },
+    {
+        "name": "Raspberry Mojito",
+        "photo": "",
+        "calories": 130,
+        "ingredients": [
+            "1/2 lime cut into wedges ",
+            "6 raspberries",
+            "1 teaspoon sugar",
+            "10 fresh mints",
+            "1/4 cup white rum ",
+            "club soda"
+        ],
+        "tags": []
+    },
+    {
+        "name": "White Sangria",
+        "photo": "",
+        "calories": 170,
+        "ingredients": [
+            "3 medium oranges cut into wedges or 1 cup orange juice",
+            "1 lemon 2 3/8 inch diameter cut into wedges",
+            "1 lime cut into wedges",
+            "1 (750 ml) bottle white wine chilled ",
+            "2 oz brandy",
+            "2/3 cup white sugar ",
+            "2 cups club soda or ginger ale "
+        ],
+        "tags": []
+    },
+    {
+        "name": "Grasshopper",
+        "photo": "",
+        "calories": 182,
+        "ingredients": [
+            "3/4 oz creme de menthe ",
+            "3/4 oz white creme de cacao",
+            "1/4 oz heavy cream ",
+            "1 cup ice "
+        ],
+        "tags": []
+    },
+    {
+        "name": "Crunch Shots",
+        "photo": "",
+        "calories": 302,
+        "ingredients": [
+            "2 oz rum chata",
+            "1 oz fireball ",
+            "cinnamon/sugar rim glasses 2-1 ratio for cin and sugar ",
+            "whip cream topping"
+        ],
+        "tags": []
+    }
+]
