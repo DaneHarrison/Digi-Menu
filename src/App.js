@@ -10,8 +10,9 @@ export default class RotatableApp extends React.Component {
 		super(props);
 
 		this.state = {
-			vertical: true, 
-			menu: menu
+			menu: menu,
+			selected: [],
+			vertical: true 
 		}
 
 		//this is a fix for apple devices
@@ -50,11 +51,12 @@ export default class RotatableApp extends React.Component {
 	render() {		
 		return (
 			<div className="App">
-				{this.state.vertical
-					? <SelectionView drinks={this.state.drinks}/>
-					: <HorizontalExpander items={this.state.drinks}/>
+				{this.state.menu && this.state.vertical
+					? <SelectionView drinks={this.state.menu}/>
+					: <HorizontalExpander drinks={this.state.selected}/>
 				}
-				<FlipViewBtn count="5" isVertical={this.state.vertical} handler={this.setIsVertical}/>
+
+				<FlipViewBtn count={this.state.selected.length} isVertical={this.state.vertical} handler={this.setIsVertical}/>
 			</div>
 		);
 	}

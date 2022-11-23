@@ -6,27 +6,43 @@ import { Modal } from '@mui/material'
 import React from 'react'
 
 export default class SelectionView extends React.Component {
-    //pull data from the database
-    //if this point is accessesd then access then route
     constructor(props) {
         super(props);
 
         this.state = {
             showing: [],
-            selected: 0,
             showRecipe: false
         }
+
+        setTimeout(() => {  //load with non alcoholic drinks
+            this.findFromIngredients("rum");    
+        }, 1000);
     }
 
-    findFromIngredients() {
+    findFromIngredients(ingredient) {
+        let drinkIngredients = []
+        let drinksToShow = [];
+        let currDrink;
+
+        for(let i = 0; i < this.props.drinks.length; i++) {
+            currDrink = this.props.drinks[i];
+            drinkIngredients = currDrink.ingredients
+
+            for(let j = 0; j < drinkIngredients.length && !drinksToShow.includes(currDrink); j++) {
+                if(drinkIngredients[j].indexOf(ingredient.toLowerCase()) != -1) {
+                    drinksToShow.push(currDrink)
+                }
+            }
+        }
+
+        this.setState({showing: drinksToShow})
+    }
+
+    findFromTag(tag) {
 
     }
 
-    findFromTags() {
-
-    }
-
-    showRecipe() {
+    showRecipe() { //can probably turn this into one
         this.setState({showRecipe: true});
     }
 
@@ -44,9 +60,13 @@ export default class SelectionView extends React.Component {
                 </Modal>
 
                 <div className='SelectionView'>
-                    <TypeSelector />
+                    <TypeSelector ingredientFinder={(ingredient) => this.findFromIngredients(ingredient)} tagFinder={(tag) => this.findFromTag(tag)}/>
                     <div className='CardViewer'>
-                        <RecipeCard photo='./favicon.ico' name='lolsgjnikgndkfjsnkds' showRecipe={() => {this.showRecipe()}} />
+                        {this.state.showing
+                            ? this.state.showing.map((drink, i) => { return <RecipeCard key={i} photo='./favicon.ico' name={drink.name} showRecipe={() => {this.showRecipe()}} /> })
+                            : null
+                        }
+                        {/* make it load conditionally here
                         <RecipeCard photo='./favicon.ico' name='lol' showRecipe={() => {this.showRecipe()}} />
                         <RecipeCard photo='./favicon.ico' name='lol' showRecipe={() => {this.showRecipe()}} />
                         <RecipeCard photo='./favicon.ico' name='lol' showRecipe={() => {this.showRecipe()}} />
@@ -66,6 +86,7 @@ export default class SelectionView extends React.Component {
                         <RecipeCard photo='./favicon.ico' name='lol' showRecipe={() => {this.showRecipe()}} />
                         <RecipeCard photo='./favicon.ico' name='lol' showRecipe={() => {this.showRecipe()}} />
                         <RecipeCard photo='./favicon.ico' name='lol' showRecipe={() => {this.showRecipe()}} />
+                        <RecipeCard photo='./favicon.ico' name='lol' showRecipe={() => {this.showRecipe()}} /> */}
                     </div>
                 </div>
             </div>
