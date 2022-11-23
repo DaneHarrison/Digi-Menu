@@ -10,11 +10,12 @@
 .CardViewer {
     display: flex;
     flex-flow: row wrap;
-    column-gap: 1%;
+    column-gap: 3%;
     row-gap: 6%;
     overflow-y: auto;
     justify-content: center;
     min-height: 0;
+    margin-bottom: 30px;
 }
 
 .RecipeModal {

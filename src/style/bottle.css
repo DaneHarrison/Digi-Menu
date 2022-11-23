@@ -1,9 +1,7 @@
 .BottlePic {
-    width: 55px;
-    object-fit:fill;
-    transform: translateY(-5%);
+    width: 50px;
+    object-fit: fill;
     height: 155px;
-    scale: 90%;
 }
 
 .BottleBtn {
