@@ -4,10 +4,10 @@ A digital menu with comparing features
 <br>
 <br>
 <br>
-- make it more banded (the black bottle holder part)
-- make black boxs an absolute height
-- Tailwind makes it more straightforward for what to do (standard library for everyone)
-- do a thing maybe for recommending for your friends - type in your name and it brings up a list of pre recommended
+
+- fix rotation (still broken)  
+    - probably needs two different internal states   
+- Tailwind makes it more straightforward for what to do (standard library for everyone)  
 
 ## Available Scripts
 

@@ -10,7 +10,7 @@ export default class HorizontalExpander extends React.Component {
 
 		this.state = {
 			showing: [],
-			numCards: 1,
+			numCards: 1
 		}
 	}
 

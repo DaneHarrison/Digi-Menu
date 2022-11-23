@@ -46,9 +46,3 @@ export default class DetailedRecipe extends React.Component {
         )
     }
 }
-
-//checkbox
-//name
-//photo
-//ingredients
-//drink slider

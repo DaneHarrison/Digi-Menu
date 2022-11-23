@@ -1,0 +1,69 @@
+{
+    "Bottles": [
+        {
+            "id": 0,
+            "name": "Tonic Water",
+            "photo": ""
+        },
+        {
+            "id": 1,
+            "name": "Vodka",
+            "photo": ""
+        },
+        {
+            "id": 2,
+            "name": "Rum",
+            "photo": ""
+        },
+        {
+            "id": 3,
+            "name": "Tequila",
+            "photo": ""
+        },
+        {
+            "id": 4,
+            "name": "Red Wine",
+            "photo": ""
+        },
+        {
+            "id": 5,
+            "name": "White Wine",
+            "photo": ""
+        },
+        {
+            "id": 6,
+            "name": "Jagermeister",
+            "photo": ""
+        },
+        {
+            "id": 7,
+            "name": "Kahlua",
+            "photo": ""
+        },
+        {
+            "id": 8,
+            "name": "Baileys",
+            "photo": ""
+        },
+        {
+            "id": 9,
+            "name": "Whiskey",
+            "photo": ""
+        },
+        {
+            "id": 10,
+            "name": "Gin",
+            "photo": ""
+        },
+        {
+            "id": 11,
+            "name": "Brandy",
+            "photo": ""
+        },
+        {          
+            "id": 12,  
+            "name": "Infused",
+            "photo": ""
+        }
+    ]
+}

@@ -2,7 +2,7 @@ import '../style/detailedRecipe.css'
 import * as React from 'react';
 import Slider from '@mui/material/Slider';
 
-const marks = [ //use dependency injection here
+const marks = [
   {
     value: 0,
     label: '0x',

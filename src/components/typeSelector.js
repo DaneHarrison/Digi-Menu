@@ -21,18 +21,7 @@ export default class TypeSelector extends React.Component {
                 <Bottle />
                 <Bottle />
                 <Bottle />
-                <button>Whiskey</button>
-                <button>Wine</button>
-                <button>Rum</button>
-                <button>Vodka</button>
-                <button>Tequila</button>
-                <button>Gin</button>
-                <button>Brandy</button>
-                <button>Yagermeister</button>
-                <button>Kahlua</button>
-                <button>Baileys</button>
-                <button>infused</button>
-
+                
                 <div className='Holder'>
                     <input type="text" id='searchBox' className='Hidden' onSubmit={this.search}/>
                     <button onClick={this.search} class='Hidden'></button>
@@ -41,15 +30,3 @@ export default class TypeSelector extends React.Component {
         )
     }
 }
-
-{/* <button>Whiskey</button>
-<button>Wine</button>
-<button>Rum</button>
-<button>Vodka</button>
-<button>Tequila</button>
-<button>Gin</button>
-<button>Brandy</button>
-<button>Yagermeister</button>
-<button>Kahlua</button>
-<button>Baileys</button>
-<button>infused</button> */}
