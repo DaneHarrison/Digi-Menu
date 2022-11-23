@@ -15,12 +15,30 @@
     background-color: black;
     z-index: 6;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     top: 20%;
 }
 
+.Disperse {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .Hidden {
+    padding-left: 5%;
+    padding-right: 5%;
     background-color: black;
     border: 0ch;
     -webkit-text-fill-color: white;
+    width: 15%;
+}
+
+.BottleLabel {
+    position: absolute;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 0%;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.75);
 }

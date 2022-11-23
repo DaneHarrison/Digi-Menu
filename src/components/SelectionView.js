@@ -12,6 +12,7 @@ export default class SelectionView extends React.Component {
         super(props);
 
         this.state = {
+            showing: [],
             selected: 0,
             showRecipe: false
         }

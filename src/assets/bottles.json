@@ -1,49 +1,61 @@
 [
     {
+        "id": 0,
         "name": "Tonic Water",
         "photo": "./bottles/tonicwater.png"
     },
     {
+        "id": 1,
         "name": "Rum",
         "photo": "./bottles/rum.png"
     },
     {
+        "id": 2,
         "name": "Jagermeister",
         "photo": "./bottles/jagermeister.png"
     },
     {
+        "id": 3,
         "name": "Vodka",
         "photo": "./bottles/vodka.png"
     },
     {
+        "id": 4,
         "name": "Tequila",
         "photo": "./bottles/tequila.png"
     },
     {
+        "id": 5,
         "name": "Red Wine",
         "photo": "./bottles/redwine.png"
     },
     {
+        "id": 6,
         "name": "White Wine",
         "photo": "./bottles/whitewine.png"
     },
     {
+        "id": 7,
         "name": "Baileys",
         "photo": "./bottles/baileys.png"
     },
     {
+        "id": 8,
         "name": "Kahlua",
         "photo": "./bottles/kahlua.png"
     },
     {
+        "id": 9,
         "name": "Brandy",
         "photo": "./bottles/brandy.png"
     },
     {
+        "id": 10,
         "name": "Whiskey",
         "photo": "./bottles/whiskey.png"
     },
     {
+        "id": 11,
         "name": "Gin",
         "photo": "./bottles/gin.png"
     }

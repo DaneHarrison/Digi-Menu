@@ -5,6 +5,12 @@ A digital menu with comparing features
 <br>
 <br>
 
+- Fix CSS for bottles - make px (absolute) based on s8
+- Load menu state into App
+- Add prop of menu to SelectorView
+- In App make a select functionality
+- Add Onclick functionality for bottles which passes into TypeSelector then Selector view (which then updates menu)
+
 - fix rotation (still broken)  
     - probably needs two different internal states   
 - Tailwind makes it more straightforward for what to do (standard library for everyone)  

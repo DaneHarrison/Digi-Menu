@@ -8,6 +8,7 @@ export default class TypeSelector extends React.Component {
         super(props);
 
         this.state = {
+            selected: 0,
             bottles: bottles
         }
     }
@@ -16,17 +17,25 @@ export default class TypeSelector extends React.Component {
         document.getElementById('searchBox').value = '';
     }
 
+    select(selectedIndex) {
+        this.setState({selected: selectedIndex});
+    }
+
     render() {
         return (
             <div className='TypeSelector'>
                 {this.state.bottles
-                    ? this.state.bottles.map((bottle, i) => { return <Bottle key={i} bottle={bottle} /> })
+                    ? this.state.bottles.map((bottle, i) => { return <Bottle key={i} bottle={bottle} select={(selected) => this.select(selected)}/> })
                     : null
                 }
                 
                 <div className='Holder'>
-                    <input type="text" id='searchBox' className='Hidden' onSubmit={this.search}/>
-                    <button onClick={this.search} class='Hidden'></button>
+                    {this.state.bottles ? <p className='BottleLabel'>{this.state.bottles[this.state.selected].name}</p> : null}
+                    
+                    <div className='Disperse'>
+                        <input type="text" id='searchBox' className='Hidden' onSubmit={this.search}/>
+                        <button onClick={this.search} className='Hidden'></button>
+                    </div>
                 </div>
             </div>
         )
