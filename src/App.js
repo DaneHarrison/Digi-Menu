@@ -11,8 +11,8 @@ export default class RotatableApp extends React.Component {
 
 		this.state = {
 			menu: menu,
-			selected: [],
-			vertical: true 
+			vertical: true,
+			selected: new Set()
 		}
 
 		//this is a fix for apple devices
@@ -44,6 +44,13 @@ export default class RotatableApp extends React.Component {
 		});
 	}
 
+	modSelected(index, selected) {
+		let selectedSet = this.state.selected;
+
+		selected ? selectedSet.add(index) : selectedSet.delete(index);
+		this.setState({selected: selectedSet});
+	}
+
 	setIsVertical(isVertical) {
 		this.setState({vertical: isVertical});
 	}
@@ -52,11 +59,11 @@ export default class RotatableApp extends React.Component {
 		return (
 			<div className="App">
 				{this.state.menu && this.state.vertical
-					? <SelectionView drinks={this.state.menu}/>
-					: <HorizontalExpander drinks={this.state.selected}/>
+					? <SelectionView drinks={this.state.menu} selected={this.state.selected} modSelected={(index, selected) => this.modSelected(index, selected)} />
+					: <HorizontalExpander drinks={this.state.menu} selected={this.state.selected} modSelected={(index, selected) => this.modSelected(index, selected)} />
 				}
-
-				<FlipViewBtn count={this.state.selected.length} isVertical={this.state.vertical} handler={this.setIsVertical}/>
+				
+				<FlipViewBtn count={this.state.selected.size} isVertical={this.state.vertical} handler={this.setIsVertical}/>
 			</div>
 		);
 	}

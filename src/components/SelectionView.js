@@ -11,7 +11,7 @@ export default class SelectionView extends React.Component {
 
         this.state = {
             showing: [],
-            showRecipe: false
+            currRecipe: -1
         }
 
         setTimeout(() => {
@@ -38,28 +38,26 @@ export default class SelectionView extends React.Component {
         this.setState({showing: drinksToShow})
     }
 
-    findFromTag(tag) {
-
-    }
-
     showRecipe(show) {
-        this.setState({showRecipe: show});
+        this.setState({currRecipe: show});
     }
 
     render() {
         return (
             <div>
-                <Modal open={this.state.showRecipe} onClose={() => this.showRecipe(false)}>
+                <Modal open={this.state.currRecipe != -1} onClose={() => this.showRecipe(-1)}>
                     <div className='RecipeModal'>
-                        <DetailedRecipe />
+                        <DetailedRecipe drink={this.state.showing[this.state.currRecipe]} selected={this.props.selected} modSelected={(index, selected) => this.props.modSelected(index, selected)} />
                     </div>
                 </Modal>
 
+                {/* Can put the search modal in here for friends*/}
+
                 <div className='SelectionView'>
-                    <TypeSelector ingredientFinder={(ingredient) => this.findFromIngredients(ingredient)} tagFinder={(tag) => this.findFromTag(tag)}/>
+                    <TypeSelector ingredientFinder={(ingredient) => this.findFromIngredients(ingredient)} />
                     <div className='CardViewer'>
                         {this.state.showing
-                            ? this.state.showing.map((drink, i) => { return <RecipeCard key={i} photo='./favicon.ico' name={drink.name} showRecipe={() => this.showRecipe(true)} /> })
+                            ? this.state.showing.map((drink, i) => { return <RecipeCard key={i} photo='./favicon.ico' name={drink.name} showRecipe={() => this.showRecipe(i)} /> })
                             : null
                         }
                     </div>

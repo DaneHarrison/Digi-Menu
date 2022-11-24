@@ -3,6 +3,21 @@ import DrinkSlider from './drinkSlider'
 import React from 'react'
 
 export default class DetailedRecipe extends React.Component {
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            isSelected: this.props.selected.has(this.props.drink.id)
+        }
+    }
+
+    processSelection() {
+        let checkBoxVal = document.getElementById('select').checked;
+        
+        this.setState({isSelected: checkBoxVal});
+        this.props.modSelected(this.props.drink.id, checkBoxVal);
+    }
+
     render() {
         return (
             <div className='DetailedRecipe'>
@@ -12,10 +27,10 @@ export default class DetailedRecipe extends React.Component {
                 <div className='DrinkDetails'>
                     <div className='Selector'>
                         <label for='select'>Select</label>
-                        <input type="checkbox" id='select' name='select'/>
+                        <input type="checkbox" id='select' name='select' checked={this.state.isSelected} onChange={() => this.processSelection()}/>
                     </div>
 
-                    <h1>Virgin Mojito</h1>
+                    <h1>{this.props.drink.name}</h1>
 
                     <div className='Hide'>
                         <p className='Ingredient'>- ingredients</p>
