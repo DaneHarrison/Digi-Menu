@@ -1,7 +1,7 @@
 .TypeSelector {
     display: flex;
     flex-direction: row;
-    height: 155px;
+    height: 15vh;
     padding-bottom: calc(550px - 125%);
     column-gap: 3px;
     overflow-x: scroll;
