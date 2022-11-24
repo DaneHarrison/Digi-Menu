@@ -38,10 +38,10 @@ export default class HorizontalExpander extends React.Component {
 			<div>
 			<Swiper slidesPerView={this.state.numCards} className="swiper fullscreen" onSlideChange={(swiper)=> {this.updateTabs(swiper)}} onSwiper={(swiper)=> {this.setup(swiper)}}>
 				<SwiperSlide></SwiperSlide>
-				<SwiperSlide> <VertiCardScroller list={this.state.toCompare} selected={this.props.selected} modSelected={(index, selected) => this.props.modSelected(index, selected)} /> </SwiperSlide>
-				<SwiperSlide> <VertiCardScroller list={this.state.toCompare} selected={this.props.selected} modSelected={(index, selected) => this.props.modSelected(index, selected)} /> </SwiperSlide>
-				<SwiperSlide> <VertiCardScroller list={this.state.toCompare} selected={this.props.selected} modSelected={(index, selected) => this.props.modSelected(index, selected)} /> </SwiperSlide>
-				<SwiperSlide> <VertiCardScroller list={this.state.toCompare} selected={this.props.selected} modSelected={(index, selected) => this.props.modSelected(index, selected)} /> </SwiperSlide>
+				<SwiperSlide> <VertiCardScroller list={this.state.toCompare} selected={this.props.selected} /> </SwiperSlide>
+				<SwiperSlide> <VertiCardScroller list={this.state.toCompare} selected={this.props.selected} /> </SwiperSlide>
+				<SwiperSlide> <VertiCardScroller list={this.state.toCompare} selected={this.props.selected} /> </SwiperSlide>
+				<SwiperSlide> <VertiCardScroller list={this.state.toCompare} selected={this.props.selected} /> </SwiperSlide>
 			</Swiper>
 	  	</div>
 		)

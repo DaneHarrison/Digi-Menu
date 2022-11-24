@@ -59,7 +59,7 @@ export default class RotatableApp extends React.Component {
 			<div className="App">
 				{this.state.menu && this.state.vertical
 					? <SelectionView drinks={this.state.menu} selected={this.state.selected} modSelected={(index, selected) => this.modSelected(index, selected)} />
-					: <HorizontalExpander drinks={this.state.menu} selected={this.state.selected} modSelected={(index, selected) => this.modSelected(index, selected)} />
+					: <HorizontalExpander drinks={this.state.menu} selected={this.state.selected} />
 				}
 				
 				<FlipViewBtn count={this.state.selected.size} isVertical={this.state.vertical} handler={this.setIsVertical}/>
