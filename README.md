@@ -5,7 +5,6 @@ A digital menu with comparing features
 <br>
 <br>
 
-- Adjust selection view css
 - fix rotation (still broken)  
     - probably needs two different internal states   
 - Tailwind makes it more straightforward for what to do (standard library for everyone)  

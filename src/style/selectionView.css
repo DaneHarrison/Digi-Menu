@@ -15,7 +15,8 @@
     overflow-y: auto;
     justify-content: center;
     min-height: 0;
-    margin-bottom: 30px;
+    height: 85vh;
+    align-content:flex-start;
 }
 
 .RecipeModal {
