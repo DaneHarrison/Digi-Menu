@@ -29,7 +29,7 @@ export default class SelectionView extends React.Component {
             drinkIngredients = currDrink.ingredients
 
             for(let j = 0; j < drinkIngredients.length && !drinksToShow.includes(currDrink); j++) {
-                if(drinkIngredients[j].indexOf(ingredient.toLowerCase()) != -1) {
+                if(drinkIngredients[j].indexOf(ingredient.toLowerCase()) !== -1) {
                     drinksToShow.push(currDrink)
                 }
             }

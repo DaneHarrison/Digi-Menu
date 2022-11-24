@@ -1,6 +1,6 @@
 [
     {
-        "name": "Virgin Mojito",
+        "name": "Mojito",
         "photo": "",
         "calories": 155,
         "ingredients": [
@@ -79,7 +79,7 @@
         "tags": []
     },
     {
-        "name": "Cosmopolitan",
+        "name": "Cosmo",
         "photo": "",
         "calories": 331,
         "ingredients": [
@@ -145,7 +145,7 @@
         "tags": []
     },
     {
-        "name": "Virgin Moscow Mule",
+        "name": "Moscow Mule",
         "photo": "",
         "calories": 42,
         "ingredients": [
