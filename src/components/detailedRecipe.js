@@ -33,28 +33,7 @@ export default class DetailedRecipe extends React.Component {
                     <h1>{this.props.drink.name}</h1>
 
                     <div className='Hide'>
-                        <p className='Ingredient'>- ingredients</p>
-                        <p className='Ingredient'>- ingredients</p>
-                        <p className='Ingredient'>- ingredients</p>
-                        <p className='Ingredient'>- ingredients</p>
-                        <p className='Ingredient'>- ingredients</p>
-                        <p className='Ingredient'>- ingredients</p>
-                        <p className='Ingredient'>- ingredients</p>
-                        <p className='Ingredient'>- ingredients</p>
-                        <p className='Ingredient'>- ingredients</p>
-                        <p className='Ingredient'>- ingredients</p>
-                        <p className='Ingredient'>- ingredients</p>
-                        <p className='Ingredient'>- ingredients</p>
-                        <p className='Ingredient'>- ingredients</p>
-                        <p className='Ingredient'>- ingredients</p>
-                        <p className='Ingredient'>- ingredients</p>
-                        <p className='Ingredient'>- ingredients</p>
-                        <p className='Ingredient'>- ingredients</p>
-                        <p className='Ingredient'>- ingredients</p>
-                        <p className='Ingredient'>- ingredients</p>
-                        <p className='Ingredient'>- ingredients</p>
-                        <p className='Ingredient'>- ingredients</p>
-                        <p className='Ingredient'>- ingredients</p>
+                        {this.props.drink.ingredients.map((ingredient, i) => { return <p key={i} className='Ingredient'> {ingredient} </p> })}
                     </div>
                 </div>
             </div>

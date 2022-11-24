@@ -9,8 +9,8 @@ export default class HorizontalExpander extends React.Component {
 		super(props);
 
 		this.state = {
-			showing: [],
-			numCards: 1
+			numCards: 1,
+			toCompare: this.props.drinks.filter(drink => this.props.selected.has(drink.id))
 		}
 	}
 
@@ -38,10 +38,10 @@ export default class HorizontalExpander extends React.Component {
 			<div>
 			<Swiper slidesPerView={this.state.numCards} className="swiper" onSlideChange={(swiper)=> {this.updateTabs(swiper)}} onSwiper={(swiper)=> {this.setup(swiper)}}>
 				<SwiperSlide></SwiperSlide>
-				<SwiperSlide> <VertiCardScroller /> </SwiperSlide>
-				<SwiperSlide> <VertiCardScroller /> </SwiperSlide>
-				<SwiperSlide> <VertiCardScroller /> </SwiperSlide>
-				<SwiperSlide> <VertiCardScroller /> </SwiperSlide>
+				<SwiperSlide> <VertiCardScroller list={this.state.toCompare} /> </SwiperSlide>
+				<SwiperSlide> <VertiCardScroller list={this.state.toCompare} /> </SwiperSlide>
+				<SwiperSlide> <VertiCardScroller list={this.state.toCompare} /> </SwiperSlide>
+				<SwiperSlide> <VertiCardScroller list={this.state.toCompare} /> </SwiperSlide>
 			</Swiper>
 	  	</div>
 		)
