@@ -14,12 +14,12 @@ export default class SelectionView extends React.Component {
             showRecipe: false
         }
 
-        setTimeout(() => {  //load with non alcoholic drinks
-            this.findFromIngredients("rum");    
-        }, 1000);
+        setTimeout(() => {
+            this.findFromIngredients("tonic water");    
+        }, 250);
     }
 
-    findFromIngredients(ingredient) {
+    findFromIngredients(ingredient) { //should probably just make these all tags later
         let drinkIngredients = []
         let drinksToShow = [];
         let currDrink;
@@ -42,18 +42,14 @@ export default class SelectionView extends React.Component {
 
     }
 
-    showRecipe() { //can probably turn this into one
-        this.setState({showRecipe: true});
-    }
-
-    closeRecipe() {
-        this.setState({showRecipe: false});
+    showRecipe(show) {
+        this.setState({showRecipe: show});
     }
 
     render() {
         return (
             <div>
-                <Modal open={this.state.showRecipe} onClose={() => {this.closeRecipe()}}>
+                <Modal open={this.state.showRecipe} onClose={() => this.showRecipe(false)}>
                     <div className='RecipeModal'>
                         <DetailedRecipe />
                     </div>
@@ -63,30 +59,9 @@ export default class SelectionView extends React.Component {
                     <TypeSelector ingredientFinder={(ingredient) => this.findFromIngredients(ingredient)} tagFinder={(tag) => this.findFromTag(tag)}/>
                     <div className='CardViewer'>
                         {this.state.showing
-                            ? this.state.showing.map((drink, i) => { return <RecipeCard key={i} photo='./favicon.ico' name={drink.name} showRecipe={() => {this.showRecipe()}} /> })
+                            ? this.state.showing.map((drink, i) => { return <RecipeCard key={i} photo='./favicon.ico' name={drink.name} showRecipe={() => this.showRecipe(true)} /> })
                             : null
                         }
-                        {/* make it load conditionally here
-                        <RecipeCard photo='./favicon.ico' name='lol' showRecipe={() => {this.showRecipe()}} />
-                        <RecipeCard photo='./favicon.ico' name='lol' showRecipe={() => {this.showRecipe()}} />
-                        <RecipeCard photo='./favicon.ico' name='lol' showRecipe={() => {this.showRecipe()}} />
-                        <RecipeCard photo='./favicon.ico' name='lol' showRecipe={() => {this.showRecipe()}} />
-                        <RecipeCard photo='./favicon.ico' name='lol' showRecipe={() => {this.showRecipe()}} />
-                        <RecipeCard photo='./favicon.ico' name='lol' showRecipe={() => {this.showRecipe()}} />
-                        <RecipeCard photo='./favicon.ico' name='lol' showRecipe={() => {this.showRecipe()}} />
-                        <RecipeCard photo='./favicon.ico' name='lol' showRecipe={() => {this.showRecipe()}} />
-                        <RecipeCard photo='./favicon.ico' name='lol' showRecipe={() => {this.showRecipe()}} />
-                        <RecipeCard photo='./favicon.ico' name='lol' showRecipe={() => {this.showRecipe()}} />
-                        <RecipeCard photo='./favicon.ico' name='lol' showRecipe={() => {this.showRecipe()}} />
-                        <RecipeCard photo='./favicon.ico' name='lol' showRecipe={() => {this.showRecipe()}} />
-                        <RecipeCard photo='./favicon.ico' name='lol' showRecipe={() => {this.showRecipe()}} />
-                        <RecipeCard photo='./favicon.ico' name='lol' showRecipe={() => {this.showRecipe()}} />
-                        <RecipeCard photo='./favicon.ico' name='lol' showRecipe={() => {this.showRecipe()}} />
-                        <RecipeCard photo='./favicon.ico' name='lol' showRecipe={() => {this.showRecipe()}} />
-                        <RecipeCard photo='./favicon.ico' name='lol' showRecipe={() => {this.showRecipe()}} />
-                        <RecipeCard photo='./favicon.ico' name='lol' showRecipe={() => {this.showRecipe()}} />
-                        <RecipeCard photo='./favicon.ico' name='lol' showRecipe={() => {this.showRecipe()}} />
-                        <RecipeCard photo='./favicon.ico' name='lol' showRecipe={() => {this.showRecipe()}} /> */}
                     </div>
                 </div>
             </div>
