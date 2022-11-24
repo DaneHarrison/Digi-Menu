@@ -3,15 +3,16 @@ A digital menu with comparing features
 
 <br>
 <br>
-<br>
 
-- fix rotation (still broken)  
-    - probably needs two different internal states   
-- Tailwind makes it more straightforward for what to do (standard library for everyone)  
+## TODO
+1. Fix rotation - probably needs two different internal states (also iphone and android use different API's/systems)
+2. Clean up the detailed card - add something about calories
+3. Adjust menu (add pictures, clean up ingredients, add tags (Non alcoholic etc...) and add more)
+4. Fix flipscreen btn (add alert for non flippable) and give proper photo
+5. add adjustments for friends - and add pictures for slideshows - swiper has an autoplay one to use here! (modal in selectionView)
+6. Disable menu for people who have landscape media devices 
 
 ## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 

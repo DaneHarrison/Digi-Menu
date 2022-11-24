@@ -1,4 +1,4 @@
-import DetailedRecipe from "./detailedRecipe";
+import ExpanderCard from "./expanderCard";
 import {Swiper, SwiperSlide} from "swiper/react";
 import React from 'react'
 
@@ -9,7 +9,7 @@ export default class VertiCardScroller extends React.Component {
 				<Swiper direction={"vertical"} className="mySwiper">
 					{this.props.list.map((drink, i) => { return (
 						<SwiperSlide key={i}>
-							<DetailedRecipe key={i} drink={drink} selected={this.props.selected} modSelected={(index, selected) => this.props.modSelected(index, selected)} />
+							<ExpanderCard key={i} drink={drink} selected={this.props.selected} modSelected={(index, selected) => this.props.modSelected(index, selected)} />
 						</SwiperSlide>
 					)})}
 				</Swiper>

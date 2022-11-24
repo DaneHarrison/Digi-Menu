@@ -1,0 +1,23 @@
+.ExpanderCard {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 40vh 60vh;
+    grid-template-areas: 
+                "photo"
+                "ingredients";
+    width: 100%;
+    height: 100vh;
+}
+
+.ExpanderPhoto {
+    grid-area: photo;
+}
+
+.ExpanderIngredient {
+    grid-area: ingredients;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-right: 0%;
+}

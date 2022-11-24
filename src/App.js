@@ -1,4 +1,3 @@
-import './style/App.css';
 import menu from './assets/menu.json'
 import HorizontalExpander from './components/expanderView';
 import SelectionView from './components/selectionView';
