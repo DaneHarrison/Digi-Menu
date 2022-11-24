@@ -11,6 +11,7 @@ A digital menu with comparing features
 4. Fix flipscreen btn (add alert for non flippable) and give proper photo
 5. add adjustments for friends - and add pictures for slideshows - swiper has an autoplay one to use here! (modal in selectionView)
 6. Disable menu for people who have landscape media devices 
+7. Drink slider
 
 ## Available Scripts
 
