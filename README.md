@@ -8,10 +8,8 @@ A digital menu with comparing features
 1. Fix rotation - probably needs two different internal states (also iphone and android use different API's/systems)
 2. Clean up the detailed card - add something about calories
 3. Adjust menu (add pictures, clean up ingredients, add tags (Non alcoholic etc...) and add more)
-4. Fix flipscreen btn (add alert for non flippable) and give proper photo
-5. add adjustments for friends - and add pictures for slideshows - swiper has an autoplay one to use here! (modal in selectionView)
-6. Disable menu for people who have landscape media devices 
-7. Drink slider
+4. add adjustments for friends - and add pictures for slideshows - swiper has an autoplay one to use here! (modal in selectionView) 
+5. Drink slider
 
 ## Available Scripts
 

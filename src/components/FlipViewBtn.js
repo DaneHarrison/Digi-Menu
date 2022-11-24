@@ -31,7 +31,7 @@ export default class FlipViewBtn extends React.Component {
             <div>
                 <button onClick={() => {this.flipView()}} className='FlipViewBtn'>
                     <p className='NumSelected'>{this.props.count}</p>
-                    <img src='./favicon.ico' className='Photo'></img>
+                    <img src='./scale/scale.png' className='Photo'></img>
                 </button>
             </div>
         )

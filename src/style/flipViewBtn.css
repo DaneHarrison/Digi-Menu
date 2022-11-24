@@ -15,10 +15,12 @@
 }
 
 .NumSelected {
-    -webkit-text-fill-color: rgba(255, 255, 255);
-    width: 43px;
-    top: 23px;
+    -webkit-text-fill-color: #e1c4ff;
+    left: 22px;
+    background-color: black;
     position: absolute;
     text-align: center;
     z-index: 6;
+    font-size: 20px;
+    transform: translateY(-5px);
 }
