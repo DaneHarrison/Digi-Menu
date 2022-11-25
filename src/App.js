@@ -10,37 +10,28 @@ export default class RotatableApp extends React.Component {
 
 		this.state = {
 			menu: menu,
-			vertical: true,
-			selected: new Set()
+			isVertical: true,
+			selected: new Set(),
+			isFullscreen: false,
+			isLockedVertical: null
 		}
 
-		//this is a fix for apple devices
-		// if(window.screen.orientation) {
-		// 	alert('yes')
-		// }
-		// else {
-		// 	alert('nope')
-		// }
-		// window.addEventListener('orientationchange', () => {
-		// 	//alert(window.orientation)
-		// });
-
-		//this works on android
-		window.screen.orientation.addEventListener('change', () => {
-			switch (window.screen.orientation.type) {
-				case 'portrait-primary':
-					this.setIsVertical(true);
-					break;
-				case 'landscape-primary':
-					this.setIsVertical(false);
-					break;
-				case 'landscape-secondary':
-					this.setIsVertical(false);
-					break;
-				default:
-					break;
-			}
+		window.addEventListener('orientationchange', () => {
+			this.setIsVertical(window.orientation == 0);
 		});
+	}
+
+
+	setIsVertical(isVertical) {
+		this.setState({isVertical: isVertical});
+	}
+
+	setIsLockedVertical(isLockedVertical) {
+		this.setState({isLockedVertical: isLockedVertical});
+	}
+
+	setFullScreen(isFullscreen) {
+		this.setState({isFullscreen: isFullscreen});
 	}
 
 	modSelected(index, selected) {
@@ -50,19 +41,15 @@ export default class RotatableApp extends React.Component {
 		this.setState({selected: selectedSet});
 	}
 
-	setIsVertical(isVertical) {
-		this.setState({vertical: isVertical});
-	}
-
 	render() {		
 		return (
 			<div className="App">
-				{this.state.menu && this.state.vertical
+				{this.state.menu && ((!this.state.isFullscreen && this.state.isVertical) || (this.state.isFullscreen && this.state.isLockedVertical))
 					? <SelectionView drinks={this.state.menu} selected={this.state.selected} modSelected={(index, selected) => this.modSelected(index, selected)} />
 					: <HorizontalExpander drinks={this.state.menu} selected={this.state.selected} />
 				}
 				
-				<FlipViewBtn count={this.state.selected.size} isVertical={this.state.vertical} handler={this.setIsVertical}/>
+				<FlipViewBtn count={this.state.selected.size} isVertical={this.state.isVertical} isLockedVertical={this.state.isLockedVertical} setLockedVertical={(val) => this.setIsLockedVertical(val)} setFullScreen={(val) => this.setFullScreen(val)} />
 			</div>
 		);
 	}
