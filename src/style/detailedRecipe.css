@@ -1,47 +1,73 @@
 .DetailedRecipe {
     display: grid;
-    grid-template-rows: 2% 60% 36% 2%;
-    grid-template-columns: 3% 47% 47% 3%;
+    grid-template-rows: 2% 40% 55% 2%;
+    grid-template-columns: 2% 96% 2%;
     grid-template-areas: 
-        ". . . ."
-        ". photo topDesc ."
-        ". slider btmDesc ."
-        ". . . .";
+        ".   .   ."
+        "calories photo checkbox"
+        ".  desc  ."
+        ".   .   .";
     width: 100vw;
-    height: 75vh;
+    height: 500px;
+    text-align: center;
 }
 
-.Photo {
+.RecipePhoto {
     grid-area: photo;
     width: 100%;
     height: 100%;
-    object-fit: fill;
+    object-fit: contain;
 }
 
 .DrinkDetails {
-    grid-row-start: topDesc;
-    grid-row-end: btmDesc;
-    grid-column-start: topDesc;
-    grid-column-end: topDesc; 
+    grid-area: desc;
+    display: flex;
+    flex-direction: column;
 }
 
-.Slider {
-    grid-area: slider;
+.DrinkName {
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .Hide {
-    width: 100%;
-    height: 65%;
+    text-align:left;
     overflow-y: scroll;
+    width: calc(var(100% - 30px));
+    height: 500px;
+    padding-left: 30px;
+
 }
 
-.Ingredient {
-    text-align: center;
-    padding-right: 15%;
+.RemoveMargins {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .Selector {
+    grid-area: checkbox;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: end;
+    transform: translateX(-50px);
+}
+
+.Checkbox {
+    width: 40px;
+    height: 40px
+}
+
+.CalorieHolder {
+    grid-area: calories;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    transform: translateX(11px);
+}
+
+.Label {
+    padding-left: 2px;
 }

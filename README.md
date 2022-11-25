@@ -5,11 +5,9 @@ A digital menu with comparing features
 <br>
 
 ## TODO
-1. Does not look proper on Gampys phone
-2. Clean up the detailed card - add something about calories
-3. Adjust menu (add pictures, clean up ingredients, add tags (Non alcoholic etc...) and add more)
-4. add adjustments for friends - and add pictures for slideshows - swiper has an autoplay one to use here! (modal in selectionView) 
-5. Drink slider
+1. Adjust menu (add pictures, clean up ingredients, add tags (Non alcoholic etc...) and add more)
+2. add adjustments for friends - and add pictures for slideshows - swiper has an autoplay one to use here! (modal in selectionView) 
+3. Drink slider
 
 ## Available Scripts
 

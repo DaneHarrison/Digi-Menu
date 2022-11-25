@@ -21,18 +21,24 @@ export default class DetailedRecipe extends React.Component {
     render() {
         return (
             <div className='DetailedRecipe'>
-                <img src='./favicon.ico' className='Photo'></img>
+                <div className='CalorieHolder'>
+                    <p className='RemoveMargins'>Calories</p>
+                    <p className='RemoveMargins'>{this.props.drink.calories}</p>
+                </div> 
+
+                <img src='./favicon.ico' className='RecipePhoto'></img>
+
+                <div className='Selector'>
+                    <label for='select' className='Label'>Select</label>
+                    <input type="checkbox" id='select' name='select' checked={this.state.isSelected} onChange={() => this.processSelection()} className='Checkbox'/>
+                </div>
 
                 <div className='DrinkDetails'>
-                    <div className='Selector'>
-                        <label for='select'>Select</label>
-                        <input type="checkbox" id='select' name='select' checked={this.state.isSelected} onChange={() => this.processSelection()}/>
-                    </div>
-
-                    <h1>{this.props.drink.name}</h1>
+                    <h1 className='DrinkName'>{this.props.drink.name}</h1>
+                    <div><hr></hr></div>
 
                     <div className='Hide'>
-                        {this.props.drink.ingredients.map((ingredient, i) => { return <p key={i} className='Ingredient'> {ingredient} </p> })}
+                        {this.props.drink.ingredients.map((ingredient, i) => { return <p key={i} className='RemoveMargins'> {ingredient} </p> })}
                     </div>
                 </div>
             </div>

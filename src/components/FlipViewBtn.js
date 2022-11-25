@@ -18,15 +18,13 @@ export default class FlipViewBtn extends React.Component {
 
 
     flipView() {
-        let de = document.documentElement;
-
         if(window.screen.orientation) {
-            if(de.requestFullscreen) { de.requestFullscreen(); }
-            else if(de.mozRequestFullScreen) { de.mozRequestFullScreen(); }
-            else if(de.webkitRequestFullscreen) { de.webkitRequestFullscreen(); }
-            else if(de.msRequestFullScreen) { de.msRequestFullScreen(); }
+            if(document.documentElement.requestFullscreen) { document.documentElement.requestFullscreen(); }
+            else if(document.documentElement.mozRequestFullScreen) { document.documentElement.mozRequestFullScreen(); }
+            else if(document.documentElement.webkitRequestFullscreen) { document.documentElement.webkitRequestFullscreen(); }
+            else if(document.documentElement.msRequestFullScreen) { document.documentElement.msRequestFullScreen(); }
 
-            if(this.props.isLockedVertical == null && this.props.isVertical || this.props.isLockedVertical) {
+            if(this.props.isLockedVertical || (this.props.isLockedVertical == null && this.props.isVertical)) {
                 this.lockLandscape();
             } 
             else {
