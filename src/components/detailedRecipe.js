@@ -10,6 +10,7 @@ export default class DetailedRecipe extends React.Component {
         }
     }
 
+    
     processSelection() {
         let checkBoxVal = document.getElementById('select').checked;
         

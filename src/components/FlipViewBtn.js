@@ -7,9 +7,9 @@ export default class FlipViewBtn extends React.Component {
 
         if(window.screen.orientation) {
             window.addEventListener('fullscreenchange', () => { 
-                this.props.setFullScreen(document.fullscreenElement != null);
+                this.props.setFullScreen(document.fullscreenElement);
 
-                if(document.fullscreenElement == null) {
+                if(!document.fullscreenElement) {
                     this.props.setLockedVertical(null);
                 }
             });
@@ -42,7 +42,7 @@ export default class FlipViewBtn extends React.Component {
         window.screen.orientation.lock('landscape-secondary');
         this.props.setLockedVertical(false);
     }
-    
+
     lockPotrait() {
         window.screen.orientation.lock('portrait-primary');
         this.props.setLockedVertical(true);

@@ -13,6 +13,7 @@ export default class TypeSelector extends React.Component {
         }
     }
 
+    
     searchTag() {
         //document.getElementById('searchBox').value
         document.getElementById('searchBox').value = '';

@@ -14,6 +14,7 @@ export default class HorizontalExpander extends React.Component {
 		}
 	}
 
+	
 	updateTabs(swiper) {
 		let prevNumCards = this.state.numCards;
 
