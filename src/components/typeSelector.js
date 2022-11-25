@@ -15,13 +15,15 @@ export default class TypeSelector extends React.Component {
 
     
     searchTag() {
-        //document.getElementById('searchBox').value
+        let tag = document.getElementById('searchBox').value;
+
+        this.props.tagFinder(tag);
         document.getElementById('searchBox').value = '';
     }
 
     select(selectedIndex) {
         this.setState({selected: selectedIndex});
-        this.props.ingredientFinder(this.state.bottles[selectedIndex].name)
+        this.props.drinkFinder(this.state.bottles[selectedIndex].name)
     }
 
     render() {
@@ -38,8 +40,8 @@ export default class TypeSelector extends React.Component {
                     {this.state.bottles ? <p className='BottleLabel'>{this.state.bottles[this.state.selected].name}</p> : null}
                     
                     <div className='Disperse'>
-                        <input type="text" id='searchBox' className='Hidden' onSubmit={this.search}/>
-                        <button onClick={this.searchTag} className='Hidden'></button>
+                        <input type="text" id='searchBox' className='Hidden' onSubmit={() => this.search()}/>
+                        <button onClick={() => this.searchTag()} className='Hidden'></button>
                     </div>
                 </div>
             </div>

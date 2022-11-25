@@ -5,9 +5,12 @@ A digital menu with comparing features
 <br>
 
 ## TODO
-1. Adjust menu (add pictures, clean up ingredients, add tags (Non alcoholic etc...) and add more)
-2. add adjustments for friends - and add pictures for slideshows - swiper has an autoplay one to use here! (modal in selectionView) 
-3. Drink slider
+1. Adjust menu - add pictures, clean up ingredients and add more
+2. Build and post onto github pages
+
+### Eventually...
+1. change photo to a slideshow - swiper has an autoplay one to use here!
+2. Drink slider
 
 ## Available Scripts
 
