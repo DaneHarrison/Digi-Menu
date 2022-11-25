@@ -62,7 +62,7 @@
 
 5. ### **Curated Drinks**
     - Although hidden the menu supports drink curation functionality with a hidden text input field and submission button
-    - When found a user can type in any of the relevant drink tags largely made of drink types or people who may use the menu (which is controlled by the menu's JSON file)
+    - When found a user can type in any of the relevant drink tags largely made of drink types or people who may use the menu 
 
 <hr>
 <br> 
