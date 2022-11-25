@@ -5,15 +5,14 @@
         "photo": "",
         "calories": 155,
         "ingredients": [
-            "10 mint leaves",
-            "2 tbsp lime juice",
-            "2 tbsp honey",
-            "simple syrup",
-            "tonic water",
-            "ice",
-            "lime slices"
+            "10 Mint Leaves",
+            "1/2 Medium Lime (1 Tbsp)",
+            "2 Tbsp Sugar",
+            "Tonic Water"
         ],
-        "tags": []
+        "tags": [
+            "Non Alcoholic"
+        ]
     },
     {
         "id": 1,
@@ -25,7 +24,12 @@
             "1/2 oz blue curacao",
             "1 1/2 oz pineapple"
         ],
-        "tags": []
+        "tags": [
+            "Rum",
+            "Blue Curacao",
+            "Gampy",
+            "Dane"
+        ]
     },
     {
         "id": 2,
@@ -37,7 +41,10 @@
             "4 to 6 ounces coca-cola",
             "Lime wedge"
         ],
-        "tags": []
+        "tags": [
+            "Rum",
+            "Gampy"
+        ]
     },
     {
         "id": 3,
@@ -54,7 +61,10 @@
             "1 tbsp kosher salt",
             "1-1/3 cup crushed ice"
         ],
-        "tags": []
+        "tags": [
+            "Tequila",
+            "Triple Sec"
+        ]
     },
     {
         "id": 4,
@@ -69,7 +79,11 @@
             "2 oz milk",
             "cherry"
         ],
-        "tags": []
+        "tags": [
+            "Vodka",
+            "Kahlua",
+            "Allison"
+        ]
     },
     {
         "id": 5,
@@ -82,7 +96,11 @@
             "cranberry juice",
             "ice"
         ],
-        "tags": []
+        "tags": [
+            "Jagermeister",
+            "Peach Schnapps",
+            "Dane"
+        ]
     },
     {
         "id": 6,
@@ -91,11 +109,14 @@
         "calories": 331,
         "ingredients": [
             "1.5 oz citris vodka",
-            "1 oz cointreau ",
+            "1 oz Triple Sec",
             "0.5 oz lime juice ",
             "0.25 oz cranberry juice "
         ],
-        "tags": []
+        "tags": [
+            "Vodka",
+            "Triple Sec"
+        ]
     },
     {
         "id": 7,
@@ -103,11 +124,15 @@
         "photo": "",
         "calories": 195,
         "ingredients": [
-            "1 oz gin",
-            "1 oz campari",
-            "1 oz sweet vermouth"
+            "1 oz Gin",
+            "1 oz Campari",
+            "1 oz Sweet Vermouth"
         ],
-        "tags": []
+        "tags": [
+            "Gin",
+            "Campari",
+            "Vermouth"
+        ]
     },
     {
         "id": 8,
@@ -118,7 +143,10 @@
             "2.5 oz champagne",
             "2.5 oz orange juice"
         ],
-        "tags": []
+        "tags": [
+            "Champagne",
+            "Gampy"
+        ]
     },
     {
         "id": 9,
@@ -128,9 +156,11 @@
         "ingredients": [
             "2 oz tequila",
             "0.5 oz lime juice",
-            "grapefruit soda to top"
+            "Grapefruit Soda"
         ],
-        "tags": []
+        "tags": [
+            "Tequila"
+        ]
     },
     {
         "id": 10,
@@ -141,7 +171,10 @@
             "1.5 oz goslings black seal rum",
             "ginger beer to top"
         ],
-        "tags": []
+        "tags": [
+            "Rum",
+            "Elmer"
+        ]
     },
     {
         "id": 11,
@@ -154,7 +187,9 @@
             "1 1/2 oz pineapple juice",
             "1/2 oz lime juice"
         ],
-        "tags": []
+        "tags": [
+            "Rum"
+        ]
     },
     {
         "id": 12,
@@ -166,7 +201,9 @@
             "4 tablespoons lime (2 medium limes)",
             "tonic water"
         ],
-        "tags": []
+        "tags": [
+            "Non Alcoholic"
+        ]
     },
     {
         "id": 13,
@@ -178,7 +215,11 @@
             "1/2 oz coffee kahlua",
             "1 oz espresso cold brewed"
         ],
-        "tags": []
+        "tags": [
+            "Vodka",
+            "Kahlua",
+            "Dane"
+        ]
     },
     {
         "id": 14,
@@ -193,7 +234,10 @@
             "1/4 cup white rum ",
             "club soda"
         ],
-        "tags": []
+        "tags": [
+            "Rum",
+            "Dane"
+        ]
     },
     {
         "id": 15,
@@ -201,15 +245,18 @@
         "photo": "",
         "calories": 170,
         "ingredients": [
-            "3 medium oranges cut into wedges or 1 cup orange juice",
-            "1 lemon 2 3/8 inch diameter cut into wedges",
-            "1 lime cut into wedges",
-            "1 (750 ml) bottle white wine chilled ",
+            "3 wedged oranges or 1 cup orange juice",
+            "1 wedged lemon",
+            "1 wedged lime",
+            "1 (750 ml) bottle white wine chilled",
             "2 oz brandy",
             "2/3 cup white sugar ",
-            "2 cups club soda or ginger ale "
+            "2 cups club soda or ginger ale"
         ],
-        "tags": []
+        "tags": [
+            "Brandy",
+            "White Wine"
+        ]
     },
     {
         "id": 16,
@@ -222,7 +269,11 @@
             "1/4 oz heavy cream ",
             "1 cup ice "
         ],
-        "tags": []
+        "tags": [
+            "Creme de Menthe",
+            "White Creme de Cacao",
+            "Victoria"
+        ]
     },
     {
         "id": 17,
@@ -231,10 +282,13 @@
         "calories": 302,
         "ingredients": [
             "2 oz rum chata",
-            "1 oz fireball ",
-            "cinnamon/sugar rim glasses 2-1 ratio for cin and sugar ",
+            "1 oz fireball",
+            "[2:1] cinnamon/sugar rim",
             "whip cream topping"
         ],
-        "tags": []
+        "tags": [
+            "Rum",
+            "Whiskey"
+        ]
     }
 ]
