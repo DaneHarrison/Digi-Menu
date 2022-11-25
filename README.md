@@ -23,13 +23,13 @@
 <br>
 
 ## Features:
-1. ### **Filter drinks by type i.e Non Alcoholic**
-    - Users should know which drink menu they are in so this type is displayed
-    - By clicking on the respective type, the user updates to match their selected drink type
+1. ### **Filter drinks by type**
+    - By clicking on the respective bottle type, the user updates to match their selected drink type 
+    - There is a text indicator as to which type is currently selected, this changes when a new type is chosen
 
 <br>
 
-2. ### **View different drink types**
+2. ### **View drink recipes and details**
     - If a user is interested in a drink they can click on its card. This brings up a popup that displays:
         - A better view of the drink name and picture
         - Calories
@@ -44,7 +44,7 @@
 
 <br>
 
-4. ### **Drink Comparison**
+4. ### **Drink comparison**
     - By rotating their screen, the UI changes to better compare selections displaying the drinks photo and ingredients
         - A user can scroll right/left to increase/decrease the number of drinks to compare at once (supports 1 - 4 total)
         - A user can scroll up and down on each drink's section to cycle through all of their selections
@@ -60,17 +60,17 @@
 
 <br>
 
-5. ### **Curated Drinks**
+5. ### **Curated drinks**
     - Although hidden the menu supports drink curation functionality with a hidden text input field and submission button
     - When found a user can type in any of the relevant drink tags largely made of drink types or people who may use the menu 
 
 <hr>
 <br> 
 
-## Photos                                          
+## Photos:                                 
 
 ![The main screen](res/selectionView.jpg) | ![A recipe](res/detailedRecipe.jpg)
-:----------------------------------------:|:-----------------------------------:
+:-:|:-:
 
 ![default comparison screen](res/expanderView.jpg)
 ![max comparisons on the comparison screen](res/maxExpanderView.jpg)  
