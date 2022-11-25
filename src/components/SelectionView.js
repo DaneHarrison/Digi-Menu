@@ -15,23 +15,21 @@ export default class SelectionView extends React.Component {
         }
 
         setTimeout(() => {
-            this.findFromIngredients("tonic water");    
+            this.findFromTag("Non Alcoholic");    
         }, 250);
     }
 
     
-    findFromIngredients(ingredient) { //should probably just make these all tags later
-        let drinkIngredients = []
+    findFromTag(tag) {
         let drinksToShow = [];
-        let currDrink;
+        let drinkTags;
 
         for(let i = 0; i < this.props.drinks.length; i++) {
-            currDrink = this.props.drinks[i];
-            drinkIngredients = currDrink.ingredients
+            drinkTags = this.props.drinks[i].tags
 
-            for(let j = 0; j < drinkIngredients.length && !drinksToShow.includes(currDrink); j++) {
-                if(drinkIngredients[j].indexOf(ingredient.toLowerCase()) !== -1) {
-                    drinksToShow.push(currDrink)
+            for(let j = 0; j < drinkTags.length && !drinksToShow.includes(this.props.drinks[i]); j++) {
+                if(drinkTags[j].toLowerCase() == tag.toLowerCase()) {
+                    drinksToShow.push(this.props.drinks[i])
                 }
             }
         }
@@ -55,7 +53,7 @@ export default class SelectionView extends React.Component {
                 {/* Can put the search modal in here for friends*/}
 
                 <div className='SelectionView'>
-                    <TypeSelector ingredientFinder={(ingredient) => this.findFromIngredients(ingredient)} />
+                    <TypeSelector ingredientFinder={(tag) => this.findFromTag(tag)} />
                     <div className='CardViewer'>
                         {this.state.showing
                             ? this.state.showing.map((drink, i) => { return <RecipeCard key={i} photo='./favicon.ico' name={drink.name} showRecipe={() => this.showRecipe(i)} /> })
