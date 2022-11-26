@@ -6,8 +6,8 @@
         "calories": 155,
         "ingredients": [
             "10 Mint Leaves",
-            "1/2 Medium Lime (1 Tbsp)",
-            "2 Tbsp Sugar",
+            "1 tbsp Lime Juice",
+            "2 tbsp Sugar",
             "Tonic Water"
         ],
         "tags": [
@@ -20,9 +20,9 @@
         "photo": "",
         "calories": 336,
         "ingredients": [
-            "1 oz light rum",
-            "1/2 oz blue curacao",
-            "1 1/2 oz pineapple"
+            "1 oz Light Rum",
+            "0.5 oz Blue Curacao",
+            "1.5 oz Pineapple Juice"
         ],
         "tags": [
             "Rum",
@@ -37,9 +37,9 @@
         "photo": "",
         "calories": 185,
         "ingredients": [
-            "2 ounces spiced rum",
-            "4 to 6 ounces coca-cola",
-            "Lime wedge"
+            "2 oz Spiced Rum",
+            "4-6 oz Coca-Cola",
+            "Lime Wedge"
         ],
         "tags": [
             "Rum",
@@ -52,14 +52,12 @@
         "photo": "",
         "calories": 250,
         "ingredients": [
-            "1/2 ounce tequila",
-            "1/4 ounce triple sec",
-            "1/4 ounce lime juice",
-            "1/4 cup lemon juice",
-            "2 tablespoons superfine sugar",
-            "4 lime wedges",
-            "1 tbsp kosher salt",
-            "1-1/3 cup crushed ice"
+            "1.5 oz Tequila",
+            "1 oz Triple Sec",
+            "0.75 oz Lime Juice",
+            "Simple Syrup",
+            "Lime Wedge",
+            "Salt Rim"
         ],
         "tags": [
             "Tequila",
@@ -72,12 +70,10 @@
         "photo": "",
         "calories": 293,
         "ingredients": [
-            "1 cup ice cubes",
-            "4 oz pepsi",
-            "1 oz kahlua cofee flav",
-            "1.5 oz absolute vodka",
-            "2 oz milk",
-            "cherry"
+            "4 oz Pepsi",
+            "1 oz Kahlua",
+            "1.5 oz Vodka",
+            "2 oz Milk"
         ],
         "tags": [
             "Vodka",
@@ -91,10 +87,9 @@
         "photo": "",
         "calories": 162,
         "ingredients": [
-            "1 3/4 oz jagermeister",
-            "1 3/4 oz peach schnapps",
-            "cranberry juice",
-            "ice"
+            "1.75 oz Jagermeister",
+            "1.75 oz Peach Schnapps",
+            "3.5 oz Cranberry Juice"
         ],
         "tags": [
             "Jagermeister",
@@ -108,10 +103,10 @@
         "photo": "",
         "calories": 331,
         "ingredients": [
-            "1.5 oz citris vodka",
+            "1.5 oz Citris Vodka",
             "1 oz Triple Sec",
-            "0.5 oz lime juice ",
-            "0.25 oz cranberry juice "
+            "0.5 oz Lime Juice",
+            "0.25 oz Cranberry Juice"
         ],
         "tags": [
             "Vodka",
@@ -168,8 +163,8 @@
         "photo": "",
         "calories": 185,
         "ingredients": [
-            "1.5 oz goslings black seal rum",
-            "ginger beer to top"
+            "1.5 oz Black Seal Rum",
+            "Ginger Beer"
         ],
         "tags": [
             "Rum",
@@ -183,10 +178,11 @@
         "photo": "",
         "calories": 174,
         "ingredients": [
-            "2 oz light rum",
-            " 11/2 oz cream of coconut",
-            "1 1/2 oz pineapple juice",
-            "1/2 oz lime juice"
+            "1 oz Light Rum",
+            "Equal Pineapple Juice",
+            "Equal Coconut Milk",
+            "Blend",
+            "Cherry"
         ],
         "tags": [
             "Rum",
@@ -199,12 +195,13 @@
         "photo": "",
         "calories": 42,
         "ingredients": [
-            "8 oz ginger beer",
-            "4 tablespoons lime (2 medium limes)",
-            "tonic water"
+            "8 oz Ginger Beer",
+            "4 tbsp Lime Juice",
+            "Tonic Water"
         ],
         "tags": [
-            "Non Alcoholic"
+            "Non Alcoholic",
+            "Elmer"
         ]
     },
     {
@@ -213,9 +210,9 @@
         "photo": "",
         "calories": 239,
         "ingredients": [
-            "2 oz vodka",
-            "1/2 oz coffee kahlua",
-            "1 oz espresso cold brewed"
+            "2 oz Vodka",
+            "0.5 oz Kahlua",
+            "1 oz Cold Espresso"
         ],
         "tags": [
             "Vodka",
@@ -229,11 +226,11 @@
         "photo": "",
         "calories": 130,
         "ingredients": [
-            "1/2 lime cut into wedges ",
-            "6 Raspberries",
-            "1 Tsp Sugar",
             "10 Mints Leaves",
-            "1/4 cup white rum ",
+            "1 tbsp Lime Juice",
+            "6 Raspberries",
+            "1 tsp Sugar",
+            "0.25 oz White Rum ",
             "Tonic Water"
         ],
         "tags": [
@@ -248,13 +245,13 @@
         "photo": "",
         "calories": 170,
         "ingredients": [
-            "3 wedged oranges/1 cup orange juice",
-            "1 wedged lemon",
-            "1 wedged lime",
-            "1 (750 ml) bottle white wine chilled",
-            "2 oz brandy",
-            "2/3 cup white sugar ",
-            "2 cups club soda or ginger ale"
+            "3 Wedged Oranges/1 cup Orange Juice",
+            "1 Wedged Lemon",
+            "1 Wedged Lime",
+            "750 ml White Wine",
+            "2 oz Brandy",
+            "2/3 cup White Sugar",
+            "16 oz Club Soda/Ginger Ale"
         ],
         "tags": [
             "Brandy",
@@ -267,10 +264,9 @@
         "photo": "",
         "calories": 182,
         "ingredients": [
-            "3/4 oz creme de menthe ",
-            "3/4 oz white creme de cacao",
-            "1/4 oz heavy cream ",
-            "1 cup ice "
+            "0.75 oz Creme de Menthe",
+            "0.75 oz White Creme de Cacao",
+            "0.25 oz Heavy Cream"
         ],
         "tags": [
             "Creme de Menthe",
@@ -280,18 +276,305 @@
     },
     {
         "id": 17,
-        "name": "Crunch Shots",
+        "name": "Crunch Shot",
         "photo": "",
         "calories": 302,
         "ingredients": [
-            "2 oz rum chata",
-            "1 oz fireball",
-            "[2:1] cinnamon/sugar rim",
-            "whip cream topping"
+            "2 oz Rum Chata",
+            "1 oz Fireball",
+            "[2:1] Cinnamon/Sugar rim",
+            "Whip Cream Topping"
         ],
         "tags": [
             "Rum",
             "Whiskey"
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Shirley Temple",
+        "photo": "",
+        "calories": "",
+        "ingredients": [
+            "0.75-1 oz Grenadine",
+            "0.75-1 oz Sprite/Gingerale/Pepsi",
+            "Cherry"
+        ],
+        "tags": [
+            "Non Alcoholic"
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Long Island Iced Tea",
+        "photo": "",
+        "calories": "",
+        "ingredients": [
+            "0.5 oz Voda",
+            "0.5 oz Gin",
+            "0.5 oz Rum",
+            "0.5 oz Tripple Sec",
+            "2 oz Sour Mix",
+            "Pepsi",
+            "Lemon Wedge"
+        ],
+        "tags": [
+            "Vodka",
+            "Gin",
+            "Rum",
+            "Triple Sec"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Melon Ball",
+        "photo": "",
+        "calories": "",
+        "ingredients": [
+            "0.75 oz Melon Liqueur",
+            "0.75 oz Vodka",
+            "1.5 oz Orange Juice"
+        ],
+        "tags": [
+            "Melon Liqueur",
+            "Vodka"
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Bloody Mary",
+        "photo": "",
+        "calories": "",
+        "ingredients": [
+            "1 oz Vodka",
+            "Clamato Juice",
+            "Splash of Orange Juice",
+            "Black Pepper",
+            "Dash of Hot Sauce",
+            "Salt Rim"
+        ],
+        "tags": [
+            "Vodka"
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Russian Quaalude",
+        "photo": "",
+        "calories": "",
+        "ingredients": [
+            "1 oz Baileys",
+            "1 oz Frangelico (optional)",
+            "1 oz Kahlua",
+            "1 oz Vodka"
+        ],
+        "tags": [
+            "Baileys",
+            "Frangelico",
+            "Kahlua",
+            "Vodka",
+            "Gampy",
+            "Allison",
+            "Dane"
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Long Beach Iced Tea",
+        "photo": "",
+        "calories": "",
+        "ingredients": [
+            "0.5 oz Voda",
+            "0.5 oz Gin",
+            "0.5 oz Rum",
+            "0.5 oz Tripple Sec",
+            "2 oz Cranberry Juice",
+            "Sprite",
+            "Lemon Wedge"
+        ],
+        "tags": [
+            "Vodka",
+            "Gin",
+            "Rum",
+            "Triple Sec"
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Kool-Aid",
+        "photo": "",
+        "calories": "",
+        "ingredients": [
+            "1 oz Southern Comfort",
+            "0.75 oz Amaretto",
+            "1.75 oz Cranberry"
+        ],
+        "tags": [
+            "Southern Comfort",
+            "Amaretto"
+        ]
+    },
+    {
+        "id": 25,
+        "name": "Gingersnap Cookie",
+        "photo": "",
+        "calories": "",
+        "ingredients": [
+            "1 tbsp Molasses/Brown Sugar",
+            "1 tsp Vanilla",
+            "0.125 tsp Cinnamon",
+            "0.125 tsp Ground Ginger",
+            "16 oz Milk",
+            "Cinnamon stick"
+        ],
+        "tags": [
+            "Non Alcoholic"
+        ]
+    },
+    {
+        "id": 26,
+        "name": "Tom Collins",
+        "photo": "",
+        "calories": "",
+        "ingredients": [
+            "2 oz Gin",
+            "1 oz Lemon Juice",
+            "0.5 oz Simple Syrup",
+            "Club soda",
+            "Lemon Wheel",
+            "Cherry"
+        ],
+        "tags": [
+            "Gin",
+            "Don"
+        ]
+    },
+    {
+        "id": 27,
+        "name": "Strawberry Margaritta",
+        "photo": "",
+        "calories": "",
+        "ingredients": [
+            "2 cups Ice Cubes",
+            "Blend",
+            "6 oz Tequila",
+            "2 oz Triple Sec",
+            "2 cups Strawberries",
+            "4 oz Lime Juice",
+            "Blend",
+            "Salt Rim"
+        ],
+        "tags": [
+            "Tequila",
+            "Frieda"
+        ]
+    },
+    {
+        "id": 28,
+        "name": "Blowie",
+        "photo": "",
+        "calories": "87",
+        "ingredients": [
+            "Equal Kahlua",
+            "Equal Baileys",
+            "Whip Cream Topping"
+        ],
+        "tags": [
+            "Kahlua",
+            "Baileys"
+        ]
+    },
+    {
+        "id": 29,
+        "name": "Surfer on Acid",
+        "photo": "",
+        "calories": "63",
+        "ingredients": [
+            "0.5 oz Malibu Rum",
+            "Fill to half with Jagermeister",
+            "Splash of Pineapple Juice"
+        ],
+        "tags": [
+            "Rum",
+            "Jagermeister"
+        ]
+    },
+    {
+        "id": 30,
+        "name": "Side Car",
+        "photo": "",
+        "calories": "207",
+        "ingredients": [
+            "1.5 oz Brandy",
+            "0.75 oz Tripple Sec",
+            "0.5 oz Lemon Juice"
+        ],
+        "tags": [
+            "Brandy",
+            "Triple sec"
+        ]
+    },
+    {
+        "id": 31,
+        "name": "Mai-Tai",
+        "photo": "",
+        "calories": "309",
+        "ingredients": [
+            "1.5 oz Light Rum",
+            "1.5 oz Malibu Rum",
+            "3 oz Pineapple Juice",
+            "2 oz Orange Juice",
+            "Splash of Grenadine"
+        ],
+        "tags": [
+            "Rum",
+            "Dane"
+        ]
+    },
+    {
+        "id": 32,
+        "name": "Girl Scout Cookie",
+        "photo": "",
+        "calories": "157",
+        "ingredients": [
+            "0.5 oz Baileys",
+            "0.5 oz Kahlua",
+            "0.5 oz Peppermint Schnapps",
+            "1.5 oz Half & Half"
+        ],
+        "tags": [
+            "Tequila",
+            "Frieda"
+        ]
+    },
+    {
+        "id": 33,
+        "name": "Buttery Nip",
+        "photo": "",
+        "calories": "68",
+        "ingredients": [
+            "0.75 oz Buttershots",
+            "0.75 oz Baileys"
+        ],
+        "tags": [
+            "Buttershots",
+            "Baileys"
+        ]
+    },
+    {
+        "id": 34,
+        "name": "Prarie Fire",
+        "photo": "",
+        "calories": "64",
+        "ingredients": [
+            "1 oz Tequilla",
+            "4-5 dashes Hot Sauce",
+            "Lime slice",
+            "Salt Rim"
+        ],
+        "tags": [
+            "Tequila",
+            "Josef"
         ]
     }
 ]
