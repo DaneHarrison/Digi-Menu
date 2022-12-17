@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Digi-Menu/static/css/main.238a371e.css",
+    "main.js": "/Digi-Menu/static/js/main.7a6b76cf.js",
+    "index.html": "/Digi-Menu/index.html",
+    "main.238a371e.css.map": "/Digi-Menu/static/css/main.238a371e.css.map",
+    "main.7a6b76cf.js.map": "/Digi-Menu/static/js/main.7a6b76cf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.238a371e.css",
+    "static/js/main.7a6b76cf.js"
+  ]
+}
