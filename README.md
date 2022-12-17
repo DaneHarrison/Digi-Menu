@@ -1,5 +1,5 @@
 <div align="center">
-    <h1><b>Digi-Menu</b></h1>
+    <h1><b><a href="https://daneharrison.github.io/Digi-Menu/">Digi-Menu</a></b></h1>
 <h2>A digital menu with comparing features</h2>
 </div>
 
