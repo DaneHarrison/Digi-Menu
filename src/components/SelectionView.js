@@ -68,7 +68,7 @@ export default class SelectionView extends React.Component {
                     <TypeSelector drinkFinder={(tag) => this.findFromTag(tag)} tagFinder={(tag) => this.findTag(tag)} />
                     <div className='CardViewer'>
                         {this.state.showing
-                            ? this.state.showing.map((drink, i) => { return <RecipeCard key={i} photo='./favicon.ico' name={drink.name} showRecipe={() => this.showRecipe(i)} /> })
+                            ? this.state.showing.map((drink, i) => { return <RecipeCard key={i} photo={drink.photo} name={drink.name} showRecipe={() => this.showRecipe(i)} /> })
                             : null
                         }
                     </div>

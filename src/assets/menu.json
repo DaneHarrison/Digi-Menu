@@ -2,7 +2,7 @@
     {
         "id": 0,
         "name": "Mojito",
-        "photo": "",
+        "photo": "./drinks/mojito.png",
         "calories": 155,
         "ingredients": [
             "10 Mint Leaves",
@@ -17,7 +17,7 @@
     {
         "id": 1,
         "name": "Blue Hawaiian",
-        "photo": "",
+        "photo": "./drinks/blueHawiian.png",
         "calories": 336,
         "ingredients": [
             "1 oz Light Rum",
@@ -34,7 +34,7 @@
     {
         "id": 2,
         "name": "Rum & Coke",
-        "photo": "",
+        "photo": "./drinks/rumNCoke.png",
         "calories": 185,
         "ingredients": [
             "2 oz Spiced Rum",
@@ -49,7 +49,7 @@
     {
         "id": 3,
         "name": "Lime Margarita",
-        "photo": "",
+        "photo": "./drinks/limeMargarita.png",
         "calories": 250,
         "ingredients": [
             "1.5 oz Tequila",
@@ -67,7 +67,7 @@
     {
         "id": 4,
         "name": "Paralyzer",
-        "photo": "",
+        "photo": "./drinks/paralyzer.png",
         "calories": 293,
         "ingredients": [
             "4 oz Pepsi",
@@ -84,7 +84,7 @@
     {
         "id": 5,
         "name": "Red Headed Sl*t",
-        "photo": "",
+        "photo": "./drinks/redHeaded.png",
         "calories": 162,
         "ingredients": [
             "1.75 oz Jagermeister",
@@ -160,7 +160,7 @@
     {
         "id": 10,
         "name": "Dark & Stormy",
-        "photo": "",
+        "photo": "./drinks/darkNStormy.png",
         "calories": 185,
         "ingredients": [
             "1.5 oz Black Seal Rum",
@@ -175,7 +175,7 @@
     {
         "id": 11,
         "name": "Pina Colada",
-        "photo": "",
+        "photo": "./drinks/colada.png",
         "calories": 174,
         "ingredients": [
             "1 oz Light Rum",
@@ -192,7 +192,7 @@
     {
         "id": 12,
         "name": "Moscow Mule",
-        "photo": "",
+        "photo": "./drinks/mule.png",
         "calories": 42,
         "ingredients": [
             "8 oz Ginger Beer",
@@ -223,7 +223,7 @@
     {
         "id": 14,
         "name": "Raspberry Mojito",
-        "photo": "",
+        "photo": "./drinks/raspMojito.png",
         "calories": 130,
         "ingredients": [
             "10 Mints Leaves",
@@ -277,7 +277,7 @@
     {
         "id": 17,
         "name": "Crunch Shot",
-        "photo": "",
+        "photo": "./drinks/crunchShot.png",
         "calories": 302,
         "ingredients": [
             "2 oz Rum Chata",
@@ -293,7 +293,7 @@
     {
         "id": 18,
         "name": "Shirley Temple",
-        "photo": "",
+        "photo": "./drinks/shirleyTemple.png",
         "calories": "",
         "ingredients": [
             "0.75-1 oz Grenadine",
@@ -307,7 +307,7 @@
     {
         "id": 19,
         "name": "Long Island Iced Tea",
-        "photo": "",
+        "photo": "./drinks/longIslandTea.png",
         "calories": "",
         "ingredients": [
             "0.5 oz Voda",
@@ -381,7 +381,7 @@
     {
         "id": 23,
         "name": "Long Beach Iced Tea",
-        "photo": "",
+        "photo": "./drinks/longBeachTea.png",
         "calories": "",
         "ingredients": [
             "0.5 oz Voda",
@@ -417,7 +417,7 @@
     {
         "id": 25,
         "name": "Gingersnap Cookie",
-        "photo": "",
+        "photo": "./drinks/gingerSnap.png",
         "calories": "",
         "ingredients": [
             "1 tbsp Molasses/Brown Sugar",
@@ -487,7 +487,7 @@
     {
         "id": 29,
         "name": "Surfer on Acid",
-        "photo": "",
+        "photo": "./drinks/surferOnAcid.png",
         "calories": "63",
         "ingredients": [
             "0.5 oz Malibu Rum",
@@ -517,7 +517,7 @@
     {
         "id": 31,
         "name": "Mai-Tai",
-        "photo": "",
+        "photo": "./drinks/maitai.png",
         "calories": "309",
         "ingredients": [
             "1.5 oz Light Rum",
@@ -575,6 +575,27 @@
         "tags": [
             "Tequila",
             "Josef"
+        ]
+    },
+    {
+        "id": 35,
+        "name": "Ocean Blue",
+        "photo": "",
+        "calories": "",
+        "ingredients": [
+            "Handful of Mint",
+            "6 oz Vodka",
+            "2 oz Blue Curacao",
+            "4 oz Lime Juice",
+            "2 oz Simple Syrup",
+            "Ice, mix and churn",
+            "Tonic Water",
+            "Sliced orange wheels"
+        ],
+        "tags": [
+            "Vodka",
+            "Blue Curacao",
+            "Dane"
         ]
     }
 ]

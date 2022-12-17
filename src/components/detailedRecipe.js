@@ -26,7 +26,7 @@ export default class DetailedRecipe extends React.Component {
                     <p className='RemoveMargins'>{this.props.drink.calories}</p>
                 </div> 
 
-                <img src='./favicon.ico' className='RecipePhoto'></img>
+                <img src={this.props.drink.photo} className='RecipePhoto'></img>
 
                 <div className='Selector'>
                     <label for='select' className='Label'>Select</label>
