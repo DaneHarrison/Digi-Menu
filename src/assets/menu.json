@@ -100,7 +100,7 @@
     {
         "id": 6,
         "name": "Cosmo",
-        "photo": "",
+        "photo": "./drinks/cosmo.png",
         "calories": 331,
         "ingredients": [
             "1.5 oz Citris Vodka",
@@ -116,7 +116,7 @@
     {
         "id": 7,
         "name": "Negroni",
-        "photo": "",
+        "photo": "./drinks/negroni.png",
         "calories": 195,
         "ingredients": [
             "1 oz Gin",
@@ -132,7 +132,7 @@
     {
         "id": 8,
         "name": "Mimosa",
-        "photo": "",
+        "photo": "./drinks/mimosa.png",
         "calories": 150,
         "ingredients": [
             "2.5 oz champagne",
@@ -146,7 +146,7 @@
     {
         "id": 9,
         "name": "Paloma",
-        "photo": "",
+        "photo": "./drinks/paloma.png",
         "calories": 158,
         "ingredients": [
             "2 oz tequila",
@@ -207,7 +207,7 @@
     {
         "id": 13,
         "name": "Espresso Martini",
-        "photo": "",
+        "photo": "./drinks/expressoMartini.png",
         "calories": 239,
         "ingredients": [
             "2 oz Vodka",
@@ -242,7 +242,7 @@
     {
         "id": 15,
         "name": "White Sangria",
-        "photo": "",
+        "photo": "./drinks/whiteSangria.png",
         "calories": 170,
         "ingredients": [
             "3 Wedged Oranges/1 cup Orange Juice",
@@ -261,7 +261,7 @@
     {
         "id": 16,
         "name": "Grasshopper",
-        "photo": "",
+        "photo": "./drinks/grasshopper.png",
         "calories": 182,
         "ingredients": [
             "0.75 oz Creme de Menthe",
@@ -328,7 +328,7 @@
     {
         "id": 20,
         "name": "Melon Ball",
-        "photo": "",
+        "photo": "./drinks/melonball.png",
         "calories": "",
         "ingredients": [
             "0.75 oz Melon Liqueur",
@@ -343,7 +343,7 @@
     {
         "id": 21,
         "name": "Bloody Mary",
-        "photo": "",
+        "photo": "./drinks/bloodymarry.png",
         "calories": "",
         "ingredients": [
             "1 oz Vodka",
@@ -360,7 +360,7 @@
     {
         "id": 22,
         "name": "Russian Quaalude",
-        "photo": "",
+        "photo": "./drinks/quaalade.png",
         "calories": "",
         "ingredients": [
             "1 oz Baileys",
@@ -402,7 +402,7 @@
     {
         "id": 24,
         "name": "Kool-Aid",
-        "photo": "",
+        "photo": "./drinks/koolaid",
         "calories": "",
         "ingredients": [
             "1 oz Southern Comfort",
@@ -434,7 +434,7 @@
     {
         "id": 26,
         "name": "Tom Collins",
-        "photo": "",
+        "photo": "./drinks/tomCollins.png",
         "calories": "",
         "ingredients": [
             "2 oz Gin",
@@ -452,7 +452,7 @@
     {
         "id": 27,
         "name": "Strawberry Margaritta",
-        "photo": "",
+        "photo": "./drinks/strawberryMargarita.png",
         "calories": "",
         "ingredients": [
             "2 cups Ice Cubes",
@@ -472,7 +472,7 @@
     {
         "id": 28,
         "name": "Blowie",
-        "photo": "",
+        "photo": "./drinks/blowie.png",
         "calories": "87",
         "ingredients": [
             "Equal Kahlua",
@@ -502,7 +502,7 @@
     {
         "id": 30,
         "name": "Side Car",
-        "photo": "",
+        "photo": "./drinks/sidecar.png",
         "calories": "207",
         "ingredients": [
             "1.5 oz Brandy",
@@ -534,7 +534,7 @@
     {
         "id": 32,
         "name": "Girl Scout Cookie",
-        "photo": "",
+        "photo": "./drinks/girlScout.png",
         "calories": "157",
         "ingredients": [
             "0.5 oz Baileys",
@@ -543,14 +543,15 @@
             "1.5 oz Half & Half"
         ],
         "tags": [
-            "Tequila",
-            "Frieda"
+            "Baileys",
+            "Kahlua",
+            "Peppermint Schnapps"
         ]
     },
     {
         "id": 33,
         "name": "Buttery Nip",
-        "photo": "",
+        "photo": "./drinks/butteryNipple.png",
         "calories": "68",
         "ingredients": [
             "0.75 oz Buttershots",
@@ -564,7 +565,7 @@
     {
         "id": 34,
         "name": "Prarie Fire",
-        "photo": "",
+        "photo": "./drinks/prarieFire.png",
         "calories": "64",
         "ingredients": [
             "1 oz Tequilla",
@@ -580,7 +581,7 @@
     {
         "id": 35,
         "name": "Ocean Blue",
-        "photo": "",
+        "photo": "./drinks/oceanBlue.png",
         "calories": "",
         "ingredients": [
             "Handful of Mint",

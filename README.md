@@ -11,6 +11,7 @@
 2. Add a unselect all, also make an unselect for individual drinks
 3. Make it so comparison automatically shows new drinks when more are added
 4. Adjust menu - add pictures, clean up ingredients and add more
+5. Add spotlight behind selected drink to make it more obviously selected and selectable
 
 ### Eventually...
 1. change photo to a slideshow - swiper has an autoplay one to use here!
