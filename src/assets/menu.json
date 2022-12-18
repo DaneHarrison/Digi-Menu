@@ -328,7 +328,7 @@
     {
         "id": 20,
         "name": "Melon Ball",
-        "photo": "./drinks/melonball.png",
+        "photo": "./drinks/melonBall.png",
         "calories": "",
         "ingredients": [
             "0.75 oz Melon Liqueur",
