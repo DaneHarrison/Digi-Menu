@@ -49,7 +49,7 @@ export default class TagView extends React.Component {
                     <button onClick={this.props.close} className='GoBackBtn'> Back </button>
                     
                     <div className='CardViewer'>
-                        {this.props.drinks.map((drink, i) => { return <RecipeCard key={i} photo='./favicon.ico' name={drink.name} showRecipe={() => this.showRecipe(i)} /> })}
+                        {this.props.drinks.map((drink, i) => { return <RecipeCard key={i} photo={drink.photo} name={drink.name} showRecipe={() => this.showRecipe(i)} /> })}
                     </div>
                 </div>
             </div>

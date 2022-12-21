@@ -28,7 +28,8 @@
             "Rum",
             "Blue Curacao",
             "Gampy",
-            "Dane"
+            "Dane",
+            "Frieda"
         ]
     },
     {
@@ -52,6 +53,8 @@
         "photo": "./drinks/limeMargarita.png",
         "calories": 250,
         "ingredients": [
+            "1/4 cup Ice",
+            "Blend",
             "1.5 oz Tequila",
             "1 oz Triple Sec",
             "0.75 oz Lime Juice",
@@ -136,7 +139,7 @@
         "calories": 150,
         "ingredients": [
             "2.5 oz champagne",
-            "2.5 oz orange juice"
+            "2.5 oz orange Juice"
         ],
         "tags": [
             "Champagne",
@@ -150,7 +153,7 @@
         "calories": 158,
         "ingredients": [
             "2 oz tequila",
-            "0.5 oz lime juice",
+            "0.5 oz lime Juice",
             "Grapefruit Soda"
         ],
         "tags": [
@@ -179,8 +182,9 @@
         "calories": 174,
         "ingredients": [
             "1 oz Light Rum",
-            "Equal Pineapple Juice",
-            "Equal Coconut Milk",
+            "6 oz Pineapple Juice",
+            "6 oz Coconut Milk",
+            "1/4 cup Ice",
             "Blend",
             "Cherry"
         ],
@@ -297,7 +301,7 @@
         "calories": "",
         "ingredients": [
             "0.75-1 oz Grenadine",
-            "0.75-1 oz Sprite/Gingerale/Pepsi",
+            "0.75-1 oz Sprite/GingerAle/Pepsi",
             "Cherry"
         ],
         "tags": [
@@ -351,7 +355,8 @@
             "Splash of Orange Juice",
             "Black Pepper",
             "Dash of Hot Sauce",
-            "Salt Rim"
+            "Salt Rim",
+            "Pickle Juice"
         ],
         "tags": [
             "Vodka"
@@ -364,7 +369,7 @@
         "calories": "",
         "ingredients": [
             "1 oz Baileys",
-            "1 oz Frangelico (optional)",
+            "1 oz Frangelico",
             "1 oz Kahlua",
             "1 oz Vodka"
         ],
@@ -451,16 +456,16 @@
     },
     {
         "id": 27,
-        "name": "Strawberry Margaritta",
+        "name": "Strawberry Margarita",
         "photo": "./drinks/strawberryMargarita.png",
         "calories": "",
         "ingredients": [
-            "2 cups Ice Cubes",
+            "1/4 cup Ice",
             "Blend",
-            "6 oz Tequila",
-            "2 oz Triple Sec",
+            "1.5 oz Tequila",
+            "0.5 oz Triple Sec",
             "2 cups Strawberries",
-            "4 oz Lime Juice",
+            "1 oz Limeade",
             "Blend",
             "Salt Rim"
         ],
@@ -477,7 +482,8 @@
         "ingredients": [
             "Equal Kahlua",
             "Equal Baileys",
-            "Whip Cream Topping"
+            "Whip Cream Topping",
+            "Frieda"
         ],
         "tags": [
             "Kahlua",
@@ -528,7 +534,8 @@
         ],
         "tags": [
             "Rum",
-            "Dane"
+            "Dane",
+            "Frieda"
         ]
     },
     {
@@ -597,6 +604,173 @@
             "Vodka",
             "Blue Curacao",
             "Dane"
+        ]
+    }, 
+    {
+        "id": 36,
+        "name": "Mudslide",
+        "photo": "./drinks/mudslide.png",
+        "calories": "",
+        "ingredients": [
+            "1 oz Vodka",
+            "1 oz Kahlua",
+            "1.5 oz Baileys",
+            "1.5 oz heavy cream",
+            "Chocolate shavings and rim"
+        ],
+        "tags": [
+            "Vodka",
+            "Kahlua",
+            "Baileys",
+            "Frieda"
+        ]
+    },
+    {
+        "id": 37,
+        "name": "Spiked Hot Cocoa",
+        "photo": "./drinks/spikedHotChocolate.png",
+        "calories": "",
+        "ingredients": [
+            "2 cups Milk",
+            "3 Tbsp cocoa powder",
+            "Mix",
+            "0.25 tsp vanilla extract",
+            "Pinch of cinnamon",
+            "1/4 cup dark chocolate",
+            "Mix until chocolate melts",
+            "2 oz Dark Rum/Baileys"
+        ],
+        "tags": [
+            "Vodka",
+            "Rum",
+            "Baileys",
+            "Frieda"
+        ]
+    },
+    {
+        "id": 38,
+        "name": "Bushwacker",
+        "photo": "./drinks/bushwacker.png",
+        "calories": "",
+        "ingredients": [
+            "2 oz Dark Rum",
+            "2 oz Kahlua",
+            "2 oz Creme de cacao",
+            "2 oz Cream of coconut",
+            "2 oz Milk",
+            "3 cups ice",
+            "Blend",
+            "Chocolate shavings"
+        ],
+        "tags": [
+            "Rum",
+            "Kahlua",
+            "Creme de Cacao",
+            "Frieda"
+        ]
+    },
+    {
+        "id": 39,
+        "name": "Tortuga",
+        "photo": "./drinks/tortuga.png",
+        "calories": "",
+        "ingredients": [
+            "8 oz Iced tea",
+            "1 tsp Brown sugar",
+            "Pinch of cinnamon",
+            "Lime wedges"
+        ],
+        "tags": [
+            "Cecelia",
+            "Non Alcoholic"
+        ]
+    },
+    {
+        "id": 40,
+        "name": "Strawberry Margarita",
+        "photo": "./drinks/strawberryMargarita.png",
+        "calories": "",
+        "ingredients": [
+            "1/4 cup Ice",
+            "Blend",
+            "0.5 cups Strawberries",
+            "4 tsp sugar",
+            "0.5 tbsp honey",
+            "0.5 tbsp Lime Juice",
+            "0.6 oz Orange Juice",
+            "Salt Rim"
+        ],
+        "tags": [
+            "Non Alcoholic"
+        ]
+    },
+
+    {
+        "id": 41,
+        "name": "Pineapple n Ginger Punch",
+        "photo": "./drinks/pineappleAndGinger.png",
+        "calories": "",
+        "ingredients": [
+            "Half Pineapple Juice",
+            "Half Ginger Ale",
+            "Lime wheel",
+            "Mint",
+            "Ice"
+        ],
+        "tags": [
+            "Non Alcoholic"
+        ]
+    },
+    {
+        "id": 42,
+        "name": "Bloody Mary",
+        "photo": "./drinks/bloodymarry.png",
+        "calories": "",
+        "ingredients": [
+            "Clamato Juice",
+            "Splash of Orange Juice",
+            "Black Pepper",
+            "Dash of Hot Sauce",
+            "Salt Rim",
+            "Pickle Juice"
+        ],
+        "tags": [
+            "Non Alcoholic"
+        ]
+    },
+    {
+        "id": 43,
+        "name": "Cinderella",
+        "photo": "./drinks/cinderella.png",
+        "calories": "",
+        "ingredients": [
+            "1 oz Lemon Juice",
+            "1 oz Orange Juice",
+            "1 oz Pineapple Juice",
+            "2 oz Ginger Ale",
+            "Grenadine",
+            "Orange and Pineapple slices"
+        ],
+        "tags": [
+            "Non Alcoholic"
+        ]
+    },
+    {
+        "id": 44,
+        "name": "Pina Colada",
+        "photo": "./drinks/colada.png",
+        "calories": "",
+        "ingredients": [
+            "1.5 oz Pineapple",
+            "6 oz Pineapple Juice",
+            "6 oz Coconut Milk",
+            "3 tbsp Brown sugar",
+            "1/4 cup Ice",
+            "Blend",
+            "Cherry"
+        ],
+        "tags": [
+            "Non Alcoholic"
         ]
     }
 ]
