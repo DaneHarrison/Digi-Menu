@@ -11,7 +11,8 @@
             "Tonic Water"
         ],
         "tags": [
-            "Non Alcoholic"
+            "Non Alcoholic",
+            "Josef"
         ]
     },
     {
@@ -171,8 +172,7 @@
         ],
         "tags": [
             "Rum",
-            "Elmer",
-            "Josef"
+            "Elmer"
         ]
     },
     {
@@ -644,7 +644,9 @@
             "Vodka",
             "Rum",
             "Baileys",
-            "Frieda"
+            "Frieda",
+            "Dane",
+            "Allison"
         ]
     },
     {
@@ -771,6 +773,115 @@
         ],
         "tags": [
             "Non Alcoholic"
+        ]
+    },
+    {
+        "id": 45,
+        "name": "Coffee Mojito",
+        "photo": "./drinks/coffeeMojito.png",
+        "calories": "",
+        "ingredients": [
+            "20 Mint leaves",
+            "2 tbsp sugar",
+            "Top with Coffee"
+        ],
+        "tags": [
+            "Non Alcoholic"
+        ]
+    },
+    {
+        "id": 46,
+        "name": "Winter Sunshine",
+        "photo": "./drinks/winterSunshine.png",
+        "calories": "",
+        "ingredients": [
+            "8 Ice Cubes",
+            "3 oz Coconut Milk",
+            "2 oz Orange Juice",
+            "2 oz Coconut Rum",
+            "Coconut Flakes"
+        ],
+        "tags": [
+            "Rum",
+            "Allison"
+        ]
+    },
+    {
+        "id": 47,
+        "name": "Bloody Maria",
+        "photo": "./drinks/bloodymarry.png",
+        "calories": "",
+        "ingredients": [
+            "2 oz Tequila",
+            "1 tsp Horseradish",
+            "1 tsp Dijon mustard",
+            "3 dashes Tabasco",
+            "3 dashes Worcestershire",
+            "3 dashes Celery Salt",
+            "3 dashes black pepper",
+            "1 dash lime juice",
+            "Build",
+            "Top with Clamato"
+        ],
+        "tags": [
+            "Josef"
+        ]
+    },
+    {
+        "id": 48,
+        "name": "Michelada",
+        "photo": "./drinks/michelada.png",
+        "calories": "",
+        "ingredients": [
+            "1 oz Lime Juice",
+            "3 dashes Hot Sauce",
+            "3 dashes Soy Sauce",
+            "2 dashes Worcestershire",
+            "Black Pepper",
+            "Stir",
+            "1 (12oz) bottle Mexican beer",
+            "Lime slice"
+        ],
+        "tags": [
+            "Josef",
+            "Beer"
+        ]
+    },
+    {
+        "id": 49,
+        "name": "Pine Chili Margaritta",
+        "photo": "./drinks/pineChiliMargarita.png",
+        "calories": "",
+        "ingredients": [
+            "1.5 oz Tequila",
+            "0.75 oz Triple Sec",
+            "2 oz Pineapple Juice",
+            "0.75 oz Lime Juice",
+            "1 dash Hot Sauce",
+            "Shake liquids",
+            "Salt/Tajin rim",
+            "Pineapple wedge",
+            "Lime wheel"
+        ],
+        "tags": [
+            "Tequila",
+            "Triple Sec",
+            "Josef"
+        ]
+    },
+    {
+        "id": 50,
+        "name": "Shandy",
+        "photo": "./drinks/shandy.png",
+        "calories": "",
+        "ingredients": [
+            "6 oz Pale Ale/Lager Beer",
+            "6 oz Ginger Ale/Ginger Beer/Lemon Soda",
+            "Lemon wedge"
+        ],
+        "tags": [
+            "Beer",
+            "Josef"
         ]
     }
 ]

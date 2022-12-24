@@ -12,8 +12,9 @@
 3. Make it so comparison automatically shows new drinks when more are added
 4. Flip button has a hint of background color
 5. Update architecture to use MVC
-6. Change photo to a slideshow - swiper has an autoplay one to use here!
-7. Drink slider
+6. When scrolled and swapped tabs scroll should be reset
+7. Change photo to a slideshow - swiper has an autoplay one to use here!
+8. Drink slider
 
 <br>
 
