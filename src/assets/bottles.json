@@ -51,12 +51,17 @@
     },
     {
         "id": 10,
-        "name": "Whiskey",
+        "name": "Bourbon",
         "photo": "./bottles/whiskey.png"
     },
     {
         "id": 11,
         "name": "Gin",
         "photo": "./bottles/gin.png"
+    },
+    {
+        "id": 12,
+        "name": "Beer",
+        "photo": "./bottles/corona.png"
     }
 ]

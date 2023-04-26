@@ -4,6 +4,7 @@
         "name": "Mojito",
         "photo": "./drinks/mojito.png",
         "calories": 155,
+        "available": true,
         "ingredients": [
             "10 Mint Leaves",
             "1 tbsp Lime Juice",
@@ -20,6 +21,7 @@
         "name": "Blue Hawaiian",
         "photo": "./drinks/blueHawiian.png",
         "calories": 336,
+        "available": true,
         "ingredients": [
             "1 oz Light Rum",
             "0.5 oz Blue Curacao",
@@ -38,6 +40,7 @@
         "name": "Rum & Coke",
         "photo": "./drinks/rumNCoke.png",
         "calories": 185,
+        "available": true,
         "ingredients": [
             "2 oz Spiced Rum",
             "4-6 oz Coca-Cola",
@@ -53,6 +56,7 @@
         "name": "Lime Margarita",
         "photo": "./drinks/limeMargarita.png",
         "calories": 250,
+        "available": false,
         "ingredients": [
             "1/4 cup Ice",
             "Blend",
@@ -73,6 +77,7 @@
         "name": "Paralyzer",
         "photo": "./drinks/paralyzer.png",
         "calories": 293,
+        "available": true,
         "ingredients": [
             "4 oz Pepsi",
             "1 oz Kahlua",
@@ -90,6 +95,7 @@
         "name": "Red Headed Sl*t",
         "photo": "./drinks/redHeaded.png",
         "calories": 162,
+        "available": false,
         "ingredients": [
             "1.75 oz Jagermeister",
             "1.75 oz Peach Schnapps",
@@ -106,6 +112,7 @@
         "name": "Cosmo",
         "photo": "./drinks/cosmo.png",
         "calories": 331,
+        "available": false,
         "ingredients": [
             "1.5 oz Citris Vodka",
             "1 oz Triple Sec",
@@ -122,6 +129,7 @@
         "name": "Negroni",
         "photo": "./drinks/negroni.png",
         "calories": 195,
+        "available": false,
         "ingredients": [
             "1 oz Gin",
             "1 oz Campari",
@@ -138,6 +146,7 @@
         "name": "Mimosa",
         "photo": "./drinks/mimosa.png",
         "calories": 150,
+        "available": false,
         "ingredients": [
             "2.5 oz champagne",
             "2.5 oz orange Juice"
@@ -152,6 +161,7 @@
         "name": "Paloma",
         "photo": "./drinks/paloma.png",
         "calories": 158,
+        "available": false,
         "ingredients": [
             "2 oz tequila",
             "0.5 oz lime Juice",
@@ -164,11 +174,14 @@
     {
         "id": 10,
         "name": "Dark & Stormy",
-        "photo": "./drinks/darkNStormy.png",
+        "photo": "./drinks/tallDarkNStormy.png",
         "calories": 185,
+        "available": true,
         "ingredients": [
-            "1.5 oz Black Seal Rum",
-            "Ginger Beer"
+            "2 oz Dark Rum",
+            "1/2 oz Lime Juice",
+            "Top Ginger Beer",
+            "Lime Wheel Garnish"
         ],
         "tags": [
             "Rum",
@@ -180,6 +193,7 @@
         "name": "Pina Colada",
         "photo": "./drinks/colada.png",
         "calories": 174,
+        "available": false,
         "ingredients": [
             "1 oz Light Rum",
             "6 oz Pineapple Juice",
@@ -198,6 +212,7 @@
         "name": "Moscow Mule",
         "photo": "./drinks/mule.png",
         "calories": 42,
+        "available": true,
         "ingredients": [
             "8 oz Ginger Beer",
             "4 tbsp Lime Juice",
@@ -213,6 +228,7 @@
         "name": "Espresso Martini",
         "photo": "./drinks/expressoMartini.png",
         "calories": 239,
+        "available": false,
         "ingredients": [
             "2 oz Vodka",
             "0.5 oz Kahlua",
@@ -229,6 +245,7 @@
         "name": "Raspberry Mojito",
         "photo": "./drinks/raspMojito.png",
         "calories": 130,
+        "available": false,
         "ingredients": [
             "10 Mints Leaves",
             "1 tbsp Lime Juice",
@@ -248,6 +265,7 @@
         "name": "White Sangria",
         "photo": "./drinks/whiteSangria.png",
         "calories": 170,
+        "available": false,
         "ingredients": [
             "3 Wedged Oranges/1 cup Orange Juice",
             "1 Wedged Lemon",
@@ -267,6 +285,7 @@
         "name": "Grasshopper",
         "photo": "./drinks/grasshopper.png",
         "calories": 182,
+        "available": false,
         "ingredients": [
             "0.75 oz Creme de Menthe",
             "0.75 oz White Creme de Cacao",
@@ -283,6 +302,7 @@
         "name": "Crunch Shot",
         "photo": "./drinks/crunchShot.png",
         "calories": 302,
+        "available": false,
         "ingredients": [
             "2 oz Rum Chata",
             "1 oz Fireball",
@@ -299,6 +319,7 @@
         "name": "Shirley Temple",
         "photo": "./drinks/shirleyTemple.png",
         "calories": "",
+        "available": true,
         "ingredients": [
             "0.75-1 oz Grenadine",
             "0.75-1 oz Sprite/GingerAle/Pepsi",
@@ -313,6 +334,7 @@
         "name": "Long Island Iced Tea",
         "photo": "./drinks/longIslandTea.png",
         "calories": "",
+        "available": false,
         "ingredients": [
             "0.5 oz Voda",
             "0.5 oz Gin",
@@ -334,6 +356,7 @@
         "name": "Melon Ball",
         "photo": "./drinks/melonBall.png",
         "calories": "",
+        "available": false,
         "ingredients": [
             "0.75 oz Melon Liqueur",
             "0.75 oz Vodka",
@@ -349,6 +372,7 @@
         "name": "Bloody Mary",
         "photo": "./drinks/bloodymarry.png",
         "calories": "",
+        "available": true,
         "ingredients": [
             "1 oz Vodka",
             "Clamato Juice",
@@ -367,6 +391,7 @@
         "name": "Russian Quaalude",
         "photo": "./drinks/quaalade.png",
         "calories": "",
+        "available": true,
         "ingredients": [
             "1 oz Baileys",
             "1 oz Frangelico",
@@ -388,6 +413,7 @@
         "name": "Long Beach Iced Tea",
         "photo": "./drinks/longBeachTea.png",
         "calories": "",
+        "available": false,
         "ingredients": [
             "0.5 oz Voda",
             "0.5 oz Gin",
@@ -409,6 +435,7 @@
         "name": "Kool-Aid",
         "photo": "./drinks/koolaid",
         "calories": "",
+        "available": false,
         "ingredients": [
             "1 oz Southern Comfort",
             "0.75 oz Amaretto",
@@ -424,6 +451,7 @@
         "name": "Gingersnap Cookie",
         "photo": "./drinks/gingerSnap.png",
         "calories": "",
+        "available": false,
         "ingredients": [
             "1 tbsp Molasses/Brown Sugar",
             "1 tsp Vanilla",
@@ -441,6 +469,7 @@
         "name": "Tom Collins",
         "photo": "./drinks/tomCollins.png",
         "calories": "",
+        "available": false,
         "ingredients": [
             "2 oz Gin",
             "1 oz Lemon Juice",
@@ -459,6 +488,7 @@
         "name": "Strawberry Margarita",
         "photo": "./drinks/strawberryMargarita.png",
         "calories": "",
+        "available": false,
         "ingredients": [
             "1/4 cup Ice",
             "Blend",
@@ -479,6 +509,7 @@
         "name": "Blowie",
         "photo": "./drinks/blowie.png",
         "calories": "87",
+        "available": true,
         "ingredients": [
             "Equal Kahlua",
             "Equal Baileys",
@@ -495,6 +526,7 @@
         "name": "Surfer on Acid",
         "photo": "./drinks/surferOnAcid.png",
         "calories": "63",
+        "available": false,
         "ingredients": [
             "0.5 oz Malibu Rum",
             "Fill to half with Jagermeister",
@@ -510,6 +542,7 @@
         "name": "Side Car",
         "photo": "./drinks/sidecar.png",
         "calories": "207",
+        "available": false,
         "ingredients": [
             "1.5 oz Brandy",
             "0.75 oz Tripple Sec",
@@ -525,6 +558,7 @@
         "name": "Mai-Tai",
         "photo": "./drinks/maitai.png",
         "calories": "309",
+        "available": true,
         "ingredients": [
             "1.5 oz Light Rum",
             "1.5 oz Malibu Rum",
@@ -543,6 +577,7 @@
         "name": "Girl Scout Cookie",
         "photo": "./drinks/girlScout.png",
         "calories": "157",
+        "available": false,
         "ingredients": [
             "0.5 oz Baileys",
             "0.5 oz Kahlua",
@@ -560,6 +595,7 @@
         "name": "Buttery Nip",
         "photo": "./drinks/butteryNipple.png",
         "calories": "68",
+        "available": false,
         "ingredients": [
             "0.75 oz Buttershots",
             "0.75 oz Baileys"
@@ -574,6 +610,7 @@
         "name": "Prarie Fire",
         "photo": "./drinks/prarieFire.png",
         "calories": "64",
+        "available": false,
         "ingredients": [
             "1 oz Tequilla",
             "4-5 dashes Hot Sauce",
@@ -590,6 +627,7 @@
         "name": "Ocean Blue",
         "photo": "./drinks/oceanBlue.png",
         "calories": "",
+        "available": false,
         "ingredients": [
             "Handful of Mint",
             "6 oz Vodka",
@@ -602,8 +640,7 @@
         ],
         "tags": [
             "Vodka",
-            "Blue Curacao",
-            "Dane"
+            "Blue Curacao"
         ]
     }, 
     {
@@ -611,6 +648,7 @@
         "name": "Mudslide",
         "photo": "./drinks/mudslide.png",
         "calories": "",
+        "available": false,
         "ingredients": [
             "1 oz Vodka",
             "1 oz Kahlua",
@@ -630,6 +668,7 @@
         "name": "Spiked Hot Cocoa",
         "photo": "./drinks/spikedHotChocolate.png",
         "calories": "",
+        "available": false,
         "ingredients": [
             "2 cups Milk",
             "3 Tbsp cocoa powder",
@@ -654,6 +693,7 @@
         "name": "Bushwacker",
         "photo": "./drinks/bushwacker.png",
         "calories": "",
+        "available": false,
         "ingredients": [
             "2 oz Dark Rum",
             "2 oz Kahlua",
@@ -676,6 +716,7 @@
         "name": "Tortuga",
         "photo": "./drinks/tortuga.png",
         "calories": "",
+        "available": false,
         "ingredients": [
             "8 oz Iced tea",
             "1 tsp Brown sugar",
@@ -692,6 +733,7 @@
         "name": "Strawberry Margarita",
         "photo": "./drinks/strawberryMargarita.png",
         "calories": "",
+        "available": false,
         "ingredients": [
             "1/4 cup Ice",
             "Blend",
@@ -712,6 +754,7 @@
         "name": "Pineapple n Ginger Punch",
         "photo": "./drinks/pineappleAndGinger.png",
         "calories": "",
+        "available": true,
         "ingredients": [
             "Half Pineapple Juice",
             "Half Ginger Ale",
@@ -728,6 +771,7 @@
         "name": "Bloody Mary",
         "photo": "./drinks/bloodymarry.png",
         "calories": "",
+        "available": true,
         "ingredients": [
             "Clamato Juice",
             "Splash of Orange Juice",
@@ -745,6 +789,7 @@
         "name": "Cinderella",
         "photo": "./drinks/cinderella.png",
         "calories": "",
+        "available": false,
         "ingredients": [
             "1 oz Lemon Juice",
             "1 oz Orange Juice",
@@ -762,6 +807,7 @@
         "name": "Pina Colada",
         "photo": "./drinks/colada.png",
         "calories": "",
+        "available": false,
         "ingredients": [
             "1.5 oz Pineapple",
             "6 oz Pineapple Juice",
@@ -780,6 +826,7 @@
         "name": "Coffee Mojito",
         "photo": "./drinks/coffeeMojito.png",
         "calories": "",
+        "available": false,
         "ingredients": [
             "20 Mint leaves",
             "2 tbsp sugar",
@@ -794,6 +841,7 @@
         "name": "Winter Sunshine",
         "photo": "./drinks/winterSunshine.png",
         "calories": "",
+        "available": false,
         "ingredients": [
             "8 Ice Cubes",
             "3 oz Coconut Milk",
@@ -811,6 +859,7 @@
         "name": "Bloody Maria",
         "photo": "./drinks/bloodymarry.png",
         "calories": "",
+        "available": false,
         "ingredients": [
             "2 oz Tequila",
             "1 tsp Horseradish",
@@ -829,9 +878,10 @@
     },
     {
         "id": 48,
-        "name": "Michelada",
+        "name": "JOSEFalada",
         "photo": "./drinks/michelada.png",
         "calories": "",
+        "available": true,
         "ingredients": [
             "1 oz Lime Juice",
             "3 dashes Hot Sauce",
@@ -839,7 +889,7 @@
             "2 dashes Worcestershire",
             "Black Pepper",
             "Stir",
-            "1 (12oz) bottle Mexican beer",
+            "1 Mexican Beer",
             "Lime slice"
         ],
         "tags": [
@@ -852,6 +902,7 @@
         "name": "Pine Chili Margaritta",
         "photo": "./drinks/pineChiliMargarita.png",
         "calories": "",
+        "available": false,
         "ingredients": [
             "1.5 oz Tequila",
             "0.75 oz Triple Sec",
@@ -874,6 +925,7 @@
         "name": "Shandy",
         "photo": "./drinks/shandy.png",
         "calories": "",
+        "available": false,
         "ingredients": [
             "6 oz Pale Ale/Lager Beer",
             "6 oz Ginger Ale/Ginger Beer/Lemon Soda",
@@ -882,6 +934,170 @@
         "tags": [
             "Beer",
             "Josef"
+        ]
+    },
+    {
+        "id": 51,
+        "name": "Bubye Tea",
+        "photo": "./drinks/matchaTea.png",
+        "calories": "",
+        "available": true,
+        "ingredients": [
+            "3 tbsp Matcha",
+            "1 tbsp Hot Water",
+            "Wisk",
+            "1/4 cup Condensed Milk",
+            "3 oz Tequila",
+            "1 cup Ice"
+        ],
+        "tags": [
+            "Dane",
+            "Frieda",
+            "Tori",
+            "Gampy",
+            "Cecelia",
+            "Tequila"
+        ]
+    },
+    {
+        "id": 52,
+        "name": "REBEL PATH",
+        "photo": "./drinks/boba-sunrise.png",
+        "calories": "",
+        "available": true,
+        "ingredients": [
+            "2 oz Baileys",
+            "1/2 oz Coconut Cream",
+            "3 oz Thai Tea Concentrate",
+            "1/2 Tummeric Honey Syrup"
+        ],
+        "tags": [
+            "Frieda",
+            "Tori",
+            "Dane",
+            "Gampy",
+            "Cecelia",
+            "Baileys"
+        ]
+    },
+    {
+        "id": 53,
+        "name": "Expresso Patronum",
+        "photo": "./drinks/Coffee-Smoothie.png",
+        "calories": "",
+        "available": true,
+        "ingredients": [
+            "1.5 tbsp Expresso",
+            "Banana",
+            "Top with Milk"
+        ],
+        "tags": [
+            "Non Alcoholic"
+        ]
+    },
+    {
+        "id": 54,
+        "name": "ACTIVATE VICE",
+        "photo": "./drinks/miamiVice.png",
+        "calories": "",
+        "available": true,
+        "ingredients": [
+            "2 tbsp Pineapple Juice",
+            "2 tbsp Coconut Cream",
+            "1 tbsp Half & Half",
+            "1 cup Ice (divided)",
+            "3 tbsp Strawberry Puree",
+            "3 tbsp Lime Juice",
+            "1/2 tbsp Simple Syrup"
+        ],
+        "tags": [
+            "Mikey",
+            "Non Alcoholic"
+        ]
+    },
+    {
+        "id": 55,
+        "name": "Paper Plane",
+        "photo": "./drinks/paper-plane.png",
+        "calories": "",
+        "available": true,
+        "ingredients": [
+            "3/4 oz bourbon",
+            "3/4 oz Aperol",
+            "3/4 oz Amaro Nonino Quintessentia",
+            "3/4 oz lemon juice"
+        ],
+        "tags": [
+            "Dirk",
+            "Bourbon",
+            "Aperol"
+        ]
+    },
+    {
+        "id": 56,
+        "name": "Bubye Tea",
+        "photo": "./drinks/matchaTea.png",
+        "calories": "",
+        "available": true,
+        "ingredients": [
+            "3 tbsp Matcha",
+            "1 tbsp Hot Water",
+            "Wisk",
+            "1/4 cup Condensed Milk",
+            "1 cup Ice"
+        ],
+        "tags": [
+            "Non Alcoholic"
+        ]
+    },
+    {
+        "id": 57,
+        "name": "REBEL PATH",
+        "photo": "./drinks/boba-sunrise.png",
+        "calories": "",
+        "available": true,
+        "ingredients": [
+            "1/2 oz Coconut Cream",
+            "3 oz Thai Tea Concentrate",
+            "1/2 Tummeric Honey Syrup"
+        ],
+        "tags": [
+            "Non Alcoholic"
+        ]
+    },
+    {
+        "id": 58,
+        "name": "Moscow Mule",
+        "photo": "./drinks/mule.png",
+        "calories": "",
+        "available": true,
+        "ingredients": [
+            "2 oz Vodka",
+            "1/2 oz Lime Juice",
+            "Top Ginger Beer"
+        ],
+        "tags": [
+            "Vodka"
+        ]
+    },
+    {
+        "id": 59,
+        "name": "Corona Sunrise",
+        "photo": "./drinks/coronaSunrise.png",
+        "calories": "",
+        "available": true,
+        "ingredients": [
+            "1 bottle Corona",
+            "Drink Half",
+            "1.5 oz Tequila",
+            "1.5 oz Orange Juice",
+            "0.5 oz Grenadine",
+            "1 Lime Wedge",
+            "Plug top with thumb and shake"
+        ],
+        "tags": [
+            "Beer",
+            "Tequila"
         ]
     }
 ]

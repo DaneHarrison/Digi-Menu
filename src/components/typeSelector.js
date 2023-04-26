@@ -9,11 +9,27 @@ export default class TypeSelector extends React.Component {
 
         this.state = {
             selected: 0,
-            bottles: bottles
+            bottles: null
         }
+
+        setTimeout(() => this.setState({bottles: this.getAvailableBottles()}), 500)
     }
 
-    
+    getAvailableBottles() {
+        let availableBottles = []
+
+        for(let bottleType of bottles) {
+            for(let drink of this.props.menu) {
+                if(drink.tags.includes(bottleType.name) && drink.available) {
+                    availableBottles.push(bottleType)
+                    break
+                }
+            }
+        }
+
+        return availableBottles
+    }
+
     searchTag() {
         let tag = document.getElementById('searchBox').value;
 
@@ -31,7 +47,7 @@ export default class TypeSelector extends React.Component {
             <div className='TypeSelector'>
                 <div></div>
                 {this.state.bottles
-                    ? this.state.bottles.map((bottle, i) => { return <Bottle key={i} bottle={bottle} select={(selected) => this.select(selected)}/> })
+                    ? this.state.bottles.map((bottle, i) => { return <Bottle key={i} bottle={bottle} select={() => this.select(i)}/> })
                     : null
                 }
                 <div></div>

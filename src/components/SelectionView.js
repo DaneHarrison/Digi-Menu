@@ -28,11 +28,13 @@ export default class SelectionView extends React.Component {
         let drinkTags;
 
         for(let i = 0; i < this.props.drinks.length; i++) {
-            drinkTags = this.props.drinks[i].tags
+            if(this.props.drinks[i].available) {
+                drinkTags = this.props.drinks[i].tags
 
-            for(let j = 0; j < drinkTags.length && !drinksToShow.includes(this.props.drinks[i]); j++) {
-                if(drinkTags[j].toLowerCase() == tag.toLowerCase()) {
-                    drinksToShow.push(this.props.drinks[i])
+                for(let j = 0; j < drinkTags.length && !drinksToShow.includes(this.props.drinks[i]); j++) {
+                    if(drinkTags[j].toLowerCase() == tag.toLowerCase()) {
+                        drinksToShow.push(this.props.drinks[i])
+                    }
                 }
             }
         }
@@ -65,7 +67,7 @@ export default class SelectionView extends React.Component {
                 </Modal>
 
                 <div className='SelectionView'>
-                    <TypeSelector drinkFinder={(tag) => this.findFromTag(tag)} tagFinder={(tag) => this.findTag(tag)} />
+                    <TypeSelector menu={this.props.drinks} drinkFinder={(tag) => this.findFromTag(tag)} tagFinder={(tag) => this.findTag(tag)} />
                     <div className='CardViewer'>
                         {this.state.showing
                             ? this.state.showing.map((drink, i) => { return <RecipeCard key={i} photo={drink.photo} name={drink.name} showRecipe={() => this.showRecipe(i)} /> })
