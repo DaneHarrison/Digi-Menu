@@ -998,7 +998,7 @@
     {
         "id": 54,
         "name": "ACTIVATE VICE",
-        "photo": "./drinks/miamiVice.png",
+        "photo": "./drinks/miamiVice.PNG",
         "calories": "",
         "available": true,
         "ingredients": [
@@ -1083,7 +1083,7 @@
     {
         "id": 59,
         "name": "Corona Sunrise",
-        "photo": "./drinks/coronaSunrise.png",
+        "photo": "./drinks/coronaSunrise.PNG",
         "calories": "",
         "available": true,
         "ingredients": [
