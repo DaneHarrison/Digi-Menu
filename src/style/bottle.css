@@ -2,6 +2,7 @@
     width: 50px;
     object-fit: fill;
     height: 155px;
+    opacity: 72%;
 }
 
 .BottleBtn {
@@ -9,4 +10,8 @@
     padding-right: 0%;
     border: 0ch;
     background: none;
+}
+
+.Selected {
+    opacity: 100%;
 }

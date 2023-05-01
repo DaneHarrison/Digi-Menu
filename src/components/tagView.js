@@ -1,3 +1,14 @@
+// ====================================================
+// tagView.js
+//
+// Props:
+// - drinks: JSON object (see menu.json under assets) of every drink
+// - tag: string representing the current tag
+// - selected: a set that holds the id's of selected drinks 
+// - modSelected: a function(id, value) that modifies which drinks are selected 
+//
+// Purpose: Shows the results for drink queries (by their tag attribute)
+// ====================================================
 import '../style/tagView.css'
 import tags from '../assets/tags.json'
 import DetailedRecipe from './detailedRecipe'
@@ -10,18 +21,19 @@ export default class TagView extends React.Component {
         super(props);
 
         this.state = {
-            currRecipe: -1,
-            photo: this.tryToLoadImage(tags)
+            currRecipe: -1,                 //the index of the current recipe
+            photo: this.loadImageTag(tags)  //image associated with the current tag
         }
     }
 
 
-    tryToLoadImage(tags) {
+    loadImageTag(tags) {
         let photo = null;
         
-        for(let i = 0; i < tags.length && !photo; i++) {
-            if(tags[i].name == this.props.tag) {
-                photo = tags[i].photo;
+        for(let tag of tags) {
+            if(tag.name == this.props.tag) {
+                photo = tag.photo;
+                break;
             }
         }
 
@@ -46,7 +58,7 @@ export default class TagView extends React.Component {
                 </div>
 
                 <div className='SelectionView'>
-                    <button onClick={this.props.close} className='GoBackBtn'> Back </button>
+                    <button onClick={this.props.close} className='GoBackBtn'>Back</button>
                     
                     <div className='CardViewer'>
                         {this.props.drinks.map((drink, i) => { return <RecipeCard key={i} photo={drink.photo} name={drink.name} showRecipe={() => this.showRecipe(i)} /> })}

@@ -1,3 +1,13 @@
+// ====================================================
+// typeSelector.js
+//
+// Props:
+// - menu: JSON object (see menu.json under assets) of every drink
+// - bottleFinder: function(tag) that finds drinks based on the bottle selected 
+// - tagFinder: function(tag) that finds drinks based on a tag 
+//
+// Purpose: a horizontal slider that changes the type of drinks displayed
+// ====================================================
 import '../style/typeSelector.css'
 import bottles from '../assets/bottles.json'
 import Bottle from './bottle';
@@ -8,26 +18,31 @@ export default class TypeSelector extends React.Component {
         super(props);
 
         this.state = {
-            selected: 0,
-            bottles: null
+            selected: 0,    //the id of the bottle currently selected
+            bottles: null   //a list of bottle objects (see bottles.json under assets)
         }
+       // 
+    }
 
-        setTimeout(() => this.setState({bottles: this.getAvailableBottles()}), 500)
+
+    componentDidMount() {
+        
+        this.setState({bottles: this.getAvailableBottles()});
     }
 
     getAvailableBottles() {
-        let availableBottles = []
+        let availableBottles = [];
 
         for(let bottleType of bottles) {
             for(let drink of this.props.menu) {
                 if(drink.tags.includes(bottleType.name) && drink.available) {
-                    availableBottles.push(bottleType)
-                    break
+                    availableBottles.push(bottleType);
+                    break;
                 }
             }
         }
 
-        return availableBottles
+        return availableBottles;
     }
 
     searchTag() {
@@ -39,18 +54,20 @@ export default class TypeSelector extends React.Component {
 
     select(selectedIndex) {
         this.setState({selected: selectedIndex});
-        this.props.drinkFinder(this.state.bottles[selectedIndex].name)
+        this.props.bottleFinder(this.state.bottles[selectedIndex].name);
+
+        //Adjust the opacity for the previously and now selected bottle
+        document.getElementById('bottle:' + this.state.selected).classList.remove('Selected');
+        document.getElementById('bottle:' + selectedIndex).classList.add('Selected');
     }
 
     render() {
         return (
             <div className='TypeSelector'>
-                <div></div>
                 {this.state.bottles
-                    ? this.state.bottles.map((bottle, i) => { return <Bottle key={i} bottle={bottle} select={() => this.select(i)}/> })
-                    : null
+                    ? this.state.bottles.map((bottle, i) => { return <Bottle key={i} posi={i} bottle={bottle} select={() => this.select(i)}/> })
+                    : null 
                 }
-                <div></div>
                 
                 <div className='Holder'>
                     {this.state.bottles ? <p className='BottleLabel'>{this.state.bottles[this.state.selected].name}</p> : null}

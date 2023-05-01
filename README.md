@@ -1,20 +1,16 @@
 <div align="center">
     <h1><b><a href="https://daneharrison.github.io/Digi-Menu/">Digi-Menu</a></b></h1>
-<h2>A digital menu with comparing features</h2>
+<h2>An experimental digital menu design with comparing features</h2>
 </div>
 
 <br>
 <br>
 
 ### Eventually...
-1. Add spotlight behind selected drink to make it more obviously selected and selectable
-2. Add a unselect all, also make an unselect for individual drinks
-3. Make it so comparison automatically shows new drinks when more are added
-4. Flip button has a hint of background color
-5. Update architecture to use MVC
-6. When scrolled and swapped tabs scroll should be reset
-7. Change photo to a slideshow - swiper has an autoplay one to use here!
-8. Drink slider
+1. Add a unselect all, also make an unselect for individual drinks
+2. Make it so comparison automatically shows new drinks when more are added
+3. Change photo to a slideshow - swiper has an autoplay one to use here!
+4. Drink slider
 
 <br>
 
@@ -28,6 +24,7 @@
 1. ### **Filter drinks by type**
     - By clicking on the respective bottle type, the user updates to match their selected drink type 
     - There is a text indicator as to which type is currently selected, this changes when a new type is chosen
+    - Only bottles with available drinks are shown
 
 <br>
 

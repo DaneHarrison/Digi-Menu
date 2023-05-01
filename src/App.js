@@ -9,11 +9,11 @@ export default class RotatableApp extends React.Component {
 		super(props);
 
 		this.state = {
-			menu: menu,
-			isVertical: true,
-			selected: new Set(),
-			isFullscreen: false,
-			isLockedVertical: null
+			menu: menu,				//the loaded drink menu
+			isVertical: true,		//boolean that represents if the device is being held vertically
+			selected: new Set(),	//holds the index of selected drinks from the menu
+			isFullscreen: false,	//boolean that represents if the device is currently fullscreen
+			isLockedVertical: null	//boolean that represents if the device is locked vertically
 		}
 
 		window.addEventListener('orientationchange', () => {

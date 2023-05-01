@@ -1,3 +1,13 @@
+// ====================================================
+// selectionView.js
+//
+// Props:
+// - drinks: JSON object (see menu.json under assets) of every drink
+// - selected: a set that holds the id's of selected drinks 
+// - modSelected: a function(id, value) that modifies which drinks are selected 
+//
+// Purpose: Creates a vertical scrollable card view for recipes
+// ====================================================
 import '../style/selectionView.css'
 import DetailedRecipe from './detailedRecipe'
 import TypeSelector from './typeSelector'
@@ -11,44 +21,37 @@ export default class SelectionView extends React.Component {
         super(props);
 
         this.state = {
-            showing: [],
-            showingByTag: [],
-            currRecipe: -1,
-            currTag: null
+            showing: [],        //drinks shown based on the current bottle
+            showingByTag: [],   //drinks shown based on a search
+            currRecipe: -1,     //current recipe being shown (no drink defaults to -1)
+            currTag: null       //current search tag (no tag defaults to null)
         }
-
-        setTimeout(() => {
-            this.findFromTag("Non Alcoholic");    
-        }, 250);
     }
 
+
+    componentDidMount() {
+        this.findFromBottle("Non Alcoholic"); 
+    }
     
-    findFromTag(tag) {
-        let drinksToShow = [];
-        let drinkTags;
-
-        for(let i = 0; i < this.props.drinks.length; i++) {
-            if(this.props.drinks[i].available) {
-                drinkTags = this.props.drinks[i].tags
-
-                for(let j = 0; j < drinkTags.length && !drinksToShow.includes(this.props.drinks[i]); j++) {
-                    if(drinkTags[j].toLowerCase() == tag.toLowerCase()) {
-                        drinksToShow.push(this.props.drinks[i])
-                    }
-                }
-            }
-        }
-
-        this.setState({showing: drinksToShow})
-    }
-
     showRecipe(show) {
         this.setState({currRecipe: show});
     }
 
-    findTag(tag) {
+    findFromBottle(bottle) {
+        let drinksFromBottle = this.findFromTag(bottle);
+        let cardViewer = document.getElementById('CardViewer');
+
+        this.setState({showing: drinksFromBottle.filter((drink) => drink.available)});
+        cardViewer.scrollTop = 0;   //when a different bottle is selected scroll to the top
+    }
+
+    searchDrinks(tag) {
         this.setState({currTag: tag});
-        this.setState({showingByTag: this.props.drinks.filter((drink) => drink.tags.includes(tag))});
+        this.setState({showingByTag: this.findFromTag(tag)});
+    }
+
+    findFromTag(tag) {
+        return this.props.drinks.filter((drink) => drink.tags.includes(tag));
     }
 
     render() {
@@ -60,15 +63,15 @@ export default class SelectionView extends React.Component {
                     </div>
                 </Modal>
 
-                <Modal open={this.state.showingByTag.length > 0} onClose={() => this.findTag(null)}>
+                <Modal open={this.state.showingByTag.length > 0} onClose={() => this.searchDrinks(null)}>
                     <div className='TagModal'>
-                        <TagView drinks={this.state.showingByTag} tag={this.state.currTag} selected={this.props.selected} modSelected={(index, selected) => this.props.modSelected(index, selected)} close={() => this.findTag(null)} />
+                        <TagView drinks={this.state.showingByTag} tag={this.state.currTag} selected={this.props.selected} modSelected={(index, selected) => this.props.modSelected(index, selected)} close={() => this.searchDrinks(null)} />
                     </div>
                 </Modal>
 
                 <div className='SelectionView'>
-                    <TypeSelector menu={this.props.drinks} drinkFinder={(tag) => this.findFromTag(tag)} tagFinder={(tag) => this.findTag(tag)} />
-                    <div className='CardViewer'>
+                    <TypeSelector menu={this.props.drinks} bottleFinder={(tag) => this.findFromBottle(tag)} tagFinder={(tag) => this.searchDrinks(tag)} />
+                    <div className='CardViewer' id='CardViewer'>
                         {this.state.showing
                             ? this.state.showing.map((drink, i) => { return <RecipeCard key={i} photo={drink.photo} name={drink.name} showRecipe={() => this.showRecipe(i)} /> })
                             : null
