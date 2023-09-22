@@ -1195,7 +1195,7 @@
         "name": "Social",
         "photo": "./drinks/social.png",
         "calories": "",
-        "available": true,
+        "available": false,
         "ingredients": [
             "1.75 oz Tequila (infused w/jalapeños)",
             "1.75 oz Watermelon Puree",
