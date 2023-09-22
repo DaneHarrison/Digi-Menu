@@ -13,7 +13,8 @@
         ],
         "tags": [
             "Non Alcoholic",
-            "Josef"
+            "Josef",
+            "Tori"
         ]
     },
     {
@@ -31,8 +32,7 @@
             "Rum",
             "Blue Curacao",
             "Gampy",
-            "Dane",
-            "Frieda"
+            "Dane"
         ]
     },
     {
@@ -176,7 +176,7 @@
         "name": "Dark & Stormy",
         "photo": "./drinks/tallDarkNStormy.png",
         "calories": 185,
-        "available": true,
+        "available": false,
         "ingredients": [
             "2 oz Dark Rum",
             "1/2 oz Lime Juice",
@@ -212,7 +212,7 @@
         "name": "Moscow Mule",
         "photo": "./drinks/mule.png",
         "calories": 42,
-        "available": true,
+        "available": false,
         "ingredients": [
             "8 oz Ginger Beer",
             "4 tbsp Lime Juice",
@@ -372,7 +372,7 @@
         "name": "Bloody Mary",
         "photo": "./drinks/bloodymarry.png",
         "calories": "",
-        "available": true,
+        "available": false,
         "ingredients": [
             "1 oz Vodka",
             "Clamato Juice",
@@ -501,6 +501,7 @@
         ],
         "tags": [
             "Tequila",
+            "Triple Sec",
             "Frieda"
         ]
     },
@@ -517,8 +518,7 @@
         ],
         "tags": [
             "Kahlua",
-            "Baileys",
-            "Frieda"
+            "Baileys"
         ]
     },
     {
@@ -550,7 +550,7 @@
         ],
         "tags": [
             "Brandy",
-            "Triple sec"
+            "Triple Sec"
         ]
     },
     {
@@ -659,8 +659,7 @@
         "tags": [
             "Vodka",
             "Kahlua",
-            "Baileys",
-            "Frieda"
+            "Baileys"
         ]
     },
     {
@@ -683,7 +682,6 @@
             "Vodka",
             "Rum",
             "Baileys",
-            "Frieda",
             "Dane",
             "Allison"
         ]
@@ -707,8 +705,7 @@
         "tags": [
             "Rum",
             "Kahlua",
-            "Creme de Cacao",
-            "Frieda"
+            "Creme de Cacao"
         ]
     },
     {
@@ -754,7 +751,7 @@
         "name": "Pineapple n Ginger Punch",
         "photo": "./drinks/pineappleAndGinger.png",
         "calories": "",
-        "available": true,
+        "available": false,
         "ingredients": [
             "Half Pineapple Juice",
             "Half Ginger Ale",
@@ -771,7 +768,7 @@
         "name": "Bloody Mary",
         "photo": "./drinks/bloodymarry.png",
         "calories": "",
-        "available": true,
+        "available": false,
         "ingredients": [
             "Clamato Juice",
             "Splash of Orange Juice",
@@ -873,7 +870,7 @@
             "Top with Clamato"
         ],
         "tags": [
-            "Josef"
+            "Tequila"
         ]
     },
     {
@@ -941,7 +938,7 @@
         "name": "Bubye Tea",
         "photo": "./drinks/matchaTea.png",
         "calories": "",
-        "available": true,
+        "available": false,
         "ingredients": [
             "3 tbsp Matcha",
             "1 tbsp Hot Water (enough to disolve)",
@@ -952,7 +949,6 @@
         ],
         "tags": [
             "Dane",
-            "Frieda",
             "Tori",
             "Gampy",
             "Cecelia",
@@ -964,7 +960,7 @@
         "name": "REBEL PATH",
         "photo": "./drinks/boba-sunrise.png",
         "calories": "",
-        "available": true,
+        "available": false,
         "ingredients": [
             "2 oz Baileys",
             "1/2 oz Coconut Cream",
@@ -972,7 +968,6 @@
             "1/2 Tummeric Honey Syrup"
         ],
         "tags": [
-            "Frieda",
             "Tori",
             "Dane",
             "Gampy",
@@ -1000,7 +995,7 @@
         "name": "ACTIVATE VICE",
         "photo": "./drinks/miamiVice.PNG",
         "calories": "",
-        "available": true,
+        "available": false,
         "ingredients": [
             "2 tbsp Pineapple Juice",
             "2 tbsp Coconut Cream",
@@ -1038,7 +1033,7 @@
         "name": "Bubye Tea",
         "photo": "./drinks/matchaTea.png",
         "calories": "",
-        "available": true,
+        "available": false,
         "ingredients": [
             "3 tbsp Matcha",
             "1 tbsp Hot Water (enough to disolve)",
@@ -1055,7 +1050,7 @@
         "name": "REBEL PATH",
         "photo": "./drinks/boba-sunrise.png",
         "calories": "",
-        "available": true,
+        "available": false,
         "ingredients": [
             "1/2 oz Coconut Cream",
             "3 oz Thai Tea Concentrate",
@@ -1070,7 +1065,7 @@
         "name": "Moscow Mule",
         "photo": "./drinks/mule.png",
         "calories": "",
-        "available": true,
+        "available": false,
         "ingredients": [
             "2 oz Vodka",
             "1/2 oz Lime Juice",
@@ -1097,6 +1092,117 @@
         ],
         "tags": [
             "Beer",
+            "Tequila"
+        ]
+    },
+    {
+        "id": 60,
+        "name": "Iced Matcha",
+        "photo": "./drinks/coldMatcha.PNG",
+        "calories": "",
+        "available": true,
+        "ingredients": [
+            "Mix 1 tsp matcha into 0.75 cups hot water",
+            "Mix in 0.5 cups of water",
+            "Chill",
+            "Fill cup with ice",
+            "3/4 milk",
+            "Top matcha"
+        ],
+        "tags": [
+            "Frieda",
+            "Tori",
+            "Non Alcoholic"
+        ]
+    },
+    {
+        "id": 61,
+        "name": "Amaretto Sour",
+        "photo": "./drinks/amarettoSour.PNG",
+        "calories": "",
+        "available": true,
+        "ingredients": [
+            "1 oz Amaretto",
+            "2 oz Bourbon",
+            "1 oz Lemon Juice",
+            "0.5 oz Simple Syrup"
+        ],
+        "tags": [
+            "Angela",
+            "Amaretto",
+            "Bourbon"
+        ]
+    },
+    {
+        "id": 62,
+        "name": "Italian Margarita",
+        "photo": "./drinks/italianMarg.PNG",
+        "calories": "",
+        "available": true,
+        "ingredients": [
+            "1 oz Tequilla",
+            "1.5 oz Orange Juice",
+            "1 oz Amaretto",
+            "0.5 oz Lime Juice",
+            "Shake"
+        ],
+        "tags": [
+            "Angela",
+            "Amaretto",
+            "Tequila"
+        ]
+    },
+    {
+        "id": 63,
+        "name": "Toasted Nuts",
+        "photo": "./drinks/toastedNuts.PNG",
+        "calories": "",
+        "available": true,
+        "ingredients": [
+            "1 oz Vodka",
+            "1 oz Amaretto",
+            "0.5 oz Kahlua",
+            "1.5 oz heavy cream",
+            "nutmeg"
+        ],
+        "tags": [
+            "Angela",
+            "Amaretto",
+            "Kahlua",
+            "Vodka"
+        ]
+    },
+    {
+        "id": 64,
+        "name": "Coffee Cola",
+        "photo": "./drinks/coffeeCola.PNG",
+        "calories": "",
+        "available": true,
+        "ingredients": [
+            "Fill with ice",
+            "0.25 cup cold brew",
+            "1 cup coffee",
+            "Top with salted buttercream"
+        ],
+        "tags": [
+            "Non Alcoholic",
+            "Tori",
+            "Frieda"
+        ]
+    },    
+    {
+        "id": 65,
+        "name": "Social",
+        "photo": "./drinks/social.png",
+        "calories": "",
+        "available": true,
+        "ingredients": [
+            "1.75 oz Tequila (infused w/jalapeños)",
+            "1.75 oz Watermelon Puree",
+            "0.5 oz Margarita Mix"
+        ],
+        "tags": [
+            "Josef",
             "Tequila"
         ]
     }

@@ -43,7 +43,7 @@ export default class RotatableApp extends React.Component {
 
 	render() {		
 		return (
-			<div className="App">
+			<div>
 				{this.state.menu && ((!this.state.isFullscreen && this.state.isVertical) || (this.state.isFullscreen && this.state.isLockedVertical))
 					? <SelectionView drinks={this.state.menu} selected={this.state.selected} modSelected={(index, selected) => this.modSelected(index, selected)} />
 					: <HorizontalExpander drinks={this.state.menu} selected={this.state.selected} />

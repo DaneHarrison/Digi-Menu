@@ -26,7 +26,6 @@ export default class TypeSelector extends React.Component {
 
 
     componentDidMount() {
-        
         this.setState({bottles: this.getAvailableBottles()});
     }
 

@@ -61,6 +61,11 @@
     },
     {
         "id": 12,
+        "name": "Amaretto",
+        "photo": "./bottles/amaretto.png"     
+    },
+    {
+        "id": 13,
         "name": "Beer",
         "photo": "./bottles/corona.png"
     }
