@@ -56,7 +56,7 @@
         "name": "Lime Margarita",
         "photo": "./drinks/limeMargarita.png",
         "calories": 250,
-        "available": false,
+        "available": true,
         "ingredients": [
             "1/4 cup Ice",
             "Blend",
@@ -356,14 +356,13 @@
         "name": "Melon Ball",
         "photo": "./drinks/melonBall.png",
         "calories": "",
-        "available": false,
+        "available": true,
         "ingredients": [
-            "0.75 oz Melon Liqueur",
-            "0.75 oz Vodka",
-            "1.5 oz Orange Juice"
+            "2 oz Vodka (Melon Infused)",
+            "1 oz Vodka",
+            "2 oz Orange Juice"
         ],
         "tags": [
-            "Melon Liqueur",
             "Vodka"
         ]
     },
