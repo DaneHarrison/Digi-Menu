@@ -4,19 +4,21 @@
     bottom: 10px;
     background-color: black;
     border-radius: 100%;
-    border-color: black;
+    border: 0.2px solid #e1c4ff;
     height: 60px;
     width: 60px;
     z-index: 5;
 }
 
-.Photo > img {
+.FlipPhoto {
     object-fit: fill;
+    width: 99%;
+    height: 99%;
 }
 
 .NumSelected {
     -webkit-text-fill-color: #e1c4ff;
-    left: 22px;
+    left: 23.5px;
     background-color: black;
     position: absolute;
     text-align: center;

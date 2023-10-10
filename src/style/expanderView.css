@@ -4,8 +4,6 @@
 }
 
 .swiper-slide {
-  background-image: linear-gradient(black, #e1c4ff);
-
   /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
