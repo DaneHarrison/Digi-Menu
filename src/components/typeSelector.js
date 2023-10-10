@@ -21,12 +21,36 @@ export default class TypeSelector extends React.Component {
             selected: 0,    //the id of the bottle currently selected
             bottles: null   //a list of bottle objects (see bottles.json under assets)
         }
-       // 
     }
 
 
     componentDidMount() {
         this.setState({bottles: this.getAvailableBottles()});
+        this.autoScroll()   
+    }
+
+    sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    async autoScroll() {
+        let scrollContainer = document.getElementById('scroll-container');
+        let scrollSpeed = 1; // Higher values make it scroll faster
+        
+        setTimeout(async () => {
+            while(scrollContainer.scrollLeft < scrollContainer.scrollWidth - scrollContainer.clientWidth) {
+                scrollContainer.scrollLeft += scrollSpeed
+                await this.sleep(12)
+            }
+
+            await this.sleep(300)
+
+            while(scrollContainer.scrollLeft > 0) {
+                scrollContainer.scrollLeft -= scrollSpeed
+                await this.sleep(12)
+            }
+        }, 200);
+
     }
 
     getAvailableBottles() {
@@ -62,7 +86,7 @@ export default class TypeSelector extends React.Component {
 
     render() {
         return (
-            <div className='TypeSelector'>
+            <div className='TypeSelector' id='scroll-container'>
                 {this.state.bottles
                     ? this.state.bottles.map((bottle, i) => { return <Bottle key={i} posi={i} bottle={bottle} select={() => this.select(i)}/> })
                     : null 

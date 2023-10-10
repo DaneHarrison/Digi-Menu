@@ -4,8 +4,6 @@
 }
 
 .swiper-slide {
-  background-image: linear-gradient(black, #e1c4ff);
-
   /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
@@ -27,4 +25,14 @@
   width: 100%;
   height: 100%;
   object-fit:contain;
+}
+
+.inline {
+  display: flex;
+  overflow-y: hidden;
+}
+
+.clearButton {
+  margin-left: 35px;
+  padding: 5px;
 }
