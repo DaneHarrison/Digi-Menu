@@ -50,7 +50,7 @@ export default class RotatableApp extends React.Component {
 			<div>
 				{this.state.menu && ((!this.state.isFullscreen && this.state.isVertical) || (this.state.isFullscreen && this.state.isLockedVertical))
 					? <SelectionView drinks={this.state.menu} selected={this.state.selected} modSelected={(index, selected) => this.modSelected(index, selected)} />
-					: <HorizontalExpander drinks={this.state.menu} selected={this.state.selected} clear={this.clearSelections} />
+					: <HorizontalExpander drinks={this.state.menu} selected={this.state.selected} clear={this.clearSelected} />
 				}
 				<FlipViewBtn count={this.state.selected.size} isVertical={this.state.isVertical} isLockedVertical={this.state.isLockedVertical} setLockedVertical={(val) => this.setIsLockedVertical(val)} setFullScreen={(val) => this.setFullScreen(val)} />
 			</div>
