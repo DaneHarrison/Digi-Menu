@@ -6,9 +6,13 @@
 <br>
 <br>
 
+<div align='right'>
+<img src='res/maxExpanderView.jpg' width='350px'/>
+<img src='res/selectionView.jpg' width='200px'/>
+</div>
+
 ### Content
 - [Motivation](#motivation)
-- [Demo](#demo)
 - [Features](#features)
     - [Drink filtering](#filter-drinks-by-type)
     - [View recipe details](#view-drink-recipes-and-details)
@@ -17,6 +21,7 @@
     - [Automatic screen rotation](#automatic-screen-rotation)
     - [Curated drinks](#curated-drinks)
     - [Improved learnability](#improved-learnability)
+    - [Responsive design](#responsive-design)
 - [Adjusting the Menu](#adjusting-the-menu)
 - [Running locally](#running-locally)
 
@@ -26,10 +31,6 @@
 [Culture Code](https://www.amazon.ca/Culture-Code-Secrets-Highly-Successful/dp/0804176981) by Daniel Coyle, in my opinion, is a must read for anyone looking to improve their social awareness and develop better social skills. While I was reading his book, (see my [notes here](https://github.com/DaneHarrison/Hacker-Man/blob/main/think%20tank/communication/cultureCode.pdf) if interested) one chapter stuck out to me in particular. 
 
 Daniel Coyle spoke of a basketball coach who led his team to victory against impressive odds. One of the many contributing factors to their success was the level of care the coach showed their team, he simplified their lives and remembered many minute details including their favourite foods and drinks.
-
-<br>
-
-## Demo
 
 <br>
 
@@ -68,19 +69,26 @@ Daniel Coyle spoke of a basketball coach who led his team to victory against imp
     - A user can either leave fullscreen once they learn of this feature or they can continue clicking on the button to stay in fullscreen and have the phone control the flip for them
 
 
-5. ### Curated drinks
+6. ### Curated drinks
     - Although hidden the menu supports drink curation functionality with a hidden text input field and submission button
     - When found a user can type in any of the relevant drink tags largely made of drink types or people who may use the menu 
 
-6. ### Improved learnability
+7. ### Improved learnability
     - Easily the biggest problem when using this application is field testing was its novelty. Interactions were not obviously not very intuitive. Therefore to fix this:
         - Bottles automatically scroll when the main page is loaded, movement catches users eyes and shows them that the bottles are infact interactable
         - Brief instructions have been added to the comparison tab (scroll up, down, left, right and their associated effects)
 
 <br>
 
+8. ### Responsive design
+    - Supports mobile, tablet and desktop experiences
+    - Due to the initial design and its mobile first inspirations, the design does not translate as well onto larger screens 
+        - This would require a redesign i.e fitting 1 - 4 drinks of a large screen gives poor resolution and also does not make much sense
+
+<br>
+
 ## Adjusting the Menu
-The menu is entirely controlled by a JSON file which makes it very easy to update. One example is as follows:
+The menu is entirely controlled by a [JSON file](https://github.com/DaneHarrison/Digi-Menu/blob/main/src/assets/menu.json) which makes it very easy to update. An example of a drink entry is as follows:
 
     {
         "id": 0,
@@ -104,6 +112,7 @@ The menu is entirely controlled by a JSON file which makes it very easy to updat
 - id is a unique identifier
 - available indicates ingredient availability as well as an easy way to toggle recipes on and off
 - Tags associate drinks to bottles as well as users to their curated menus
+- note that ***drink photos*** should be added [here](https://github.com/DaneHarrison/Digi-Menu/tree/main/public/drinks) and ***photos of bottles*** should be added [here](https://github.com/DaneHarrison/Digi-Menu/tree/main/public/bottles)
 
 <br>
 
