@@ -78,8 +78,6 @@ Daniel Coyle spoke of a basketball coach who led his team to victory against imp
         - Bottles automatically scroll when the main page is loaded, movement catches users eyes and shows them that the bottles are infact interactable
         - Brief instructions have been added to the comparison tab (scroll up, down, left, right and their associated effects)
 
-<br>
-
 8. ### Responsive design
     - Supports mobile, tablet and desktop experiences
     - Due to the initial design and its mobile first inspirations, the design does not translate as well onto larger screens 
