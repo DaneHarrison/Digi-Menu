@@ -47,7 +47,7 @@ export default class DetailedRecipe extends React.Component {
                     <h1 className='DrinkName'>{this.props.drink.name}</h1>
                     <div><hr/></div>
 
-                    <div className='Hide'>
+                    <div className='Hide hideScrollBar'>
                         {this.props.drink.ingredients.map((ingredient, i) => { 
                             return <p key={i} className='RemoveMargins'> {ingredient} </p> })
                         }

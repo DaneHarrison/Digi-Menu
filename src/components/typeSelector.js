@@ -86,21 +86,25 @@ export default class TypeSelector extends React.Component {
 
     render() {
         return (
-            <div className='TypeSelector' id='scroll-container'>
-                {this.state.bottles
-                    ? this.state.bottles.map((bottle, i) => { return <Bottle key={i} posi={i} bottle={bottle} select={() => this.select(i)}/> })
-                    : null 
-                }
-                
-                <div className='Holder'>
-                    {this.state.bottles ? <p className='BottleLabel'>{this.state.bottles[this.state.selected].name}</p> : null}
-                    
-                    <div className='Disperse'>
-                        <input type="text" id='searchBox' className='Hidden' onSubmit={() => this.search()}/>
-                        <button onClick={() => this.searchTag()} className='Hidden'></button>
+            <div>
+                <div className='TypeSelector hideScrollBar' id='scroll-container'>
+                    {this.state.bottles
+                        ? this.state.bottles.map((bottle, i) => { return <Bottle key={i} posi={i} bottle={bottle} select={() => this.select(i)}/> })
+                        : null 
+                    }
+                </div>
+                <div class='container'>
+                    <div className='Holder'>
+                        {this.state.bottles ? <p className='BottleLabel'>{this.state.bottles[this.state.selected].name}</p> : null}
+                        
+                        <div className='Disperse'>
+                            <input type="text" id='searchBox' className='Hidden' onSubmit={() => this.search()}/>
+                            <button onClick={() => this.searchTag()} className='Hidden'></button>
+                        </div>
                     </div>
                 </div>
             </div>
+
         )
     }
 }

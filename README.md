@@ -27,8 +27,11 @@
 
 Daniel Coyle spoke of a basketball coach who led his team to victory against impressive odds. One of the many contributing factors to their success was the level of care the coach showed their team, he simplified their lives and remembered many minute details including their favourite foods and drinks.
 
+<br>
+
 ## Demo
 
+<br>
 
 ## Features:
 1. ### Filter drinks by type
@@ -74,6 +77,8 @@ Daniel Coyle spoke of a basketball coach who led his team to victory against imp
         - Bottles automatically scroll when the main page is loaded, movement catches users eyes and shows them that the bottles are infact interactable
         - Brief instructions have been added to the comparison tab (scroll up, down, left, right and their associated effects)
 
+<br>
+
 ## Adjusting the Menu
 The menu is entirely controlled by a JSON file which makes it very easy to update. One example is as follows:
 
@@ -99,6 +104,8 @@ The menu is entirely controlled by a JSON file which makes it very easy to updat
 - id is a unique identifier
 - available indicates ingredient availability as well as an easy way to toggle recipes on and off
 - Tags associate drinks to bottles as well as users to their curated menus
+
+<br>
 
 ## Running locally
 Note that Digi Menu will not run locally (at least not properly anyways) if package.json contains the following line: 

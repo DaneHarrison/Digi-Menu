@@ -8,7 +8,7 @@
         ".  desc  ."
         ".   .   .";
     width: 100vw;
-    height: 500px;
+    height: 85vh;
     text-align: center;
 }
 
@@ -70,4 +70,34 @@
 
 .Label {
     padding-left: 2px;
+}
+
+.hideScrollBar::-webkit-scrollbar {
+    display: none;
+}
+  
+/* Hide scrollbar for IE, Edge and Firefox */
+.hideScrollBar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+@media only screen and (min-width: 768px) {
+    p {
+        font-size: x-large;
+    }
+
+    .DetailedRecipe {
+        display: grid;
+        grid-template-rows: 2% 40% 55% 2%;
+        grid-template-columns: 2% 96% 2%;
+        grid-template-areas: 
+            ".   .   ."
+            "calories photo checkbox"
+            ".  desc  ."
+            ".   .   .";
+        width: 50vw;
+        height: 90vh;
+        text-align: center;
+    }
 }

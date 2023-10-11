@@ -58,7 +58,7 @@ export default class HorizontalExpander extends React.Component {
   		return (
 		<div class='inline'>
 			{this.state.numCards == 1 || this.state.toCompare.length == 0 
-				? <div>
+				? <div class='offsetText'>
 					<h2>Welcome to the comparison tab</h2> 
 					<ul>
 						<li>Swipe up and down to cycle through selections</li>
