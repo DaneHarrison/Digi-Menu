@@ -7,8 +7,8 @@
 <br>
 
 <div align='right'>
-<img src='res/maxExpanderView.jpg' width='350px'/>
-<img src='res/selectionView.jpg' width='200px'/>
+<img src='res/maxExpanderView.jpg' width='425px'/>
+<img src='res/selectionView.jpg' width='250px'/>
 </div>
 
 ### Content
