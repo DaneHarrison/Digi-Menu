@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Digi-Menu/static/css/main.b2f11f73.css",
-    "main.js": "/Digi-Menu/static/js/main.cfc999e1.js",
+    "main.js": "/Digi-Menu/static/js/main.bb91d563.js",
     "index.html": "/Digi-Menu/index.html",
     "main.b2f11f73.css.map": "/Digi-Menu/static/css/main.b2f11f73.css.map",
-    "main.cfc999e1.js.map": "/Digi-Menu/static/js/main.cfc999e1.js.map"
+    "main.bb91d563.js.map": "/Digi-Menu/static/js/main.bb91d563.js.map"
   },
   "entrypoints": [
     "static/css/main.b2f11f73.css",
-    "static/js/main.cfc999e1.js"
+    "static/js/main.bb91d563.js"
   ]
 }
