@@ -57,8 +57,8 @@ export default class HorizontalExpander extends React.Component {
 	render() {
   		return (
 		<div class='inline'>
-			{this.state.numCards == 1 || this.state.toCompare.length == 0 
-				? <div class='offsetText'>
+			{(this.state.numCards == 1 || this.state.toCompare.length == 0) &&
+				<div class='instuctionTxt'>
 					<h2>Welcome to the comparison tab</h2> 
 					<ul>
 						<li>Swipe up and down to cycle through selections</li>
@@ -69,12 +69,11 @@ export default class HorizontalExpander extends React.Component {
 					</ul>
 					<button onClick={this.clearSelected} class='clearButton'>Unselect Drinks</button>
 				</div>
-				: <div/>
 			}
 
 			<Swiper slidesPerView={this.state.numCards} className="swiper fullscreen" onSlideChange={(swiper)=> {this.updateTabs(swiper)}} onSwiper={(swiper)=> {this.setup(swiper)}}>
-				
-				<SwiperSlide></SwiperSlide>
+				<SwiperSlide/>
+
 				<SwiperSlide> <VertiCardScroller list={this.state.toCompare} selected={this.props.selected} /> </SwiperSlide>
 				<SwiperSlide> <VertiCardScroller list={this.state.toCompare} selected={this.props.selected} /> </SwiperSlide>
 				<SwiperSlide> <VertiCardScroller list={this.state.toCompare} selected={this.props.selected} /> </SwiperSlide>

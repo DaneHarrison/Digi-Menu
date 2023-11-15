@@ -1,7 +1,8 @@
 .BottlePic {
     width: 50px;
     object-fit: fill;
-    height: 90%;
+    height: auto;
+    max-height: 160px;
     opacity: 72%;
 }
 
@@ -14,47 +15,4 @@
 
 .Selected {
     opacity: 100%;
-}
-
-@media only screen and (min-width: 600px) and (min-height: 600px) {
-    .BottlePic {
-        width: 65px;
-        object-fit: fill;
-        height: 80%;
-        opacity: 72%;
-        padding-top: 10px;
-    }
-}
-
-/* For galaxy s20 and iphone 10*/
-@media screen and (min-width: 360px) and (max-width: 1440px) and (min-height: 640px) and (max-height: 3200px) {
-    .BottlePic {
-        width: 50px;
-        object-fit: fill;
-        height: 70%;
-        opacity: 72%;
-        padding-top: 10px;
-    }  
-  }
-
-/* for tablets */
-@media only screen and (min-width: 768px) {
-    .BottlePic {
-        width: 70px;
-        object-fit: fill;
-        height: 80%;
-        opacity: 72%;
-        padding-top: 10px;
-    }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 800px) {
-    .BottlePic {
-        width: 60px;
-        object-fit: fill;
-        height: 80%;
-        opacity: 72%;
-        padding-top: 10px;
-    }
 }
