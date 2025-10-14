@@ -30,7 +30,7 @@
 ## Motivation
 [Culture Code](https://www.amazon.ca/Culture-Code-Secrets-Highly-Successful/dp/0804176981) by Daniel Coyle, in my opinion, is a must read for anyone looking to improve their social awareness and develop better social skills. While I was reading his book, (see my [notes here](https://github.com/DaneHarrison/Hacker-Man/blob/main/think%20tank/communication/cultureCode.pdf) if interested) one chapter stuck out to me in particular. 
 
-Daniel Coyle spoke of a basketball coach who led his team to victory against impressive odds. One of the many contributing factors to their success was the level of care the coach showed their team, he simplified their lives and remembered many minute details including their favourite foods and drinks.
+Daniel Coyle spoke of a basketball coach who led his team to victory against impressive odds. One of the many contributing factors to their success was the level of care the coach showed their team, he simplified their lives and remembered many minute details including their favourite foods and drinks. Inspired by this, I tried a similar approach in school where I learned my classmates’ favorite drinks and used that list to mix personalized drinks for them — a small gesture to show appreciation.
 
 <br>
 
